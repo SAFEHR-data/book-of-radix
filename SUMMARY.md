@@ -5,12 +5,10 @@
 
 ## Projects
 
+* [RAPID-AMS](projects/rapid-ams/README.md)
+  * [Guideline Adherence](projects/rapid-ams/guideline-adherence.md)
 * [CAMINO](projects/camino/README.md)
   * [Overview](projects/camino/overview.md)
-
-***
-
-* [RAPID-AMS](rapid-ams.md)
 
 ## The RADIX way
 
