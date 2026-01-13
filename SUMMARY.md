@@ -1,11 +1,19 @@
 # Table of contents
 
 * [Welcome to the Book of RADIX](README.md)
+* [Contributing](contributing.md)
 
-## Team
+## Projects
 
-* [Steve Harris](team/steve-harris.md)
+* [CAMINO](projects/camino/README.md)
+  * [Overview](projects/camino/overview.md)
 
 ***
 
-* [Contributing](contributing.md)
+* [RAPID-AMS](rapid-ams.md)
+
+## The RADIX way
+
+* [Team](the-radix-way/team/README.md)
+  * [Steve Harris](the-radix-way/team/steve-harris.md)
+  * [Akish Luintel](the-radix-way/team/akish-luintel.md)
