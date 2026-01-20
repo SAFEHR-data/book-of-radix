@@ -1,2 +1,0 @@
-# Point of care information
-

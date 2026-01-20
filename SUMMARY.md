@@ -19,9 +19,12 @@
 * [Via Francigena](understanding/via-francigena.md)
 * [Via Dolorosa](understanding/via-dolorosa.md)
 * [Inglés](understanding/ingles/README.md)
-  * [Guideline Adherence](understanding/ingles/guideline-adherence.md)
-  * [Point of care information](understanding/ingles/point-of-care-information.md)
-  * [Point of care predictions](understanding/ingles/point-of-care-predictions.md)
+  * [Guideline Adherence](understanding/ingles/guideline-adherence/README.md)
+    * [JRO study summary](understanding/ingles/guideline-adherence/jro-study-summary.md)
+    * [JRO protocol](understanding/ingles/guideline-adherence/jro-protocol.md)
+    * [Notes](understanding/ingles/guideline-adherence/notes.md)
+  * [Resistance information](understanding/ingles/resistance-information.md)
+  * [Estimated susceptibility](understanding/ingles/estimated-susceptibility.md)
 
 ## The RADIX way
 
