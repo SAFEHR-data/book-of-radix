@@ -1,4 +1,8 @@
-# Overview
+---
+description: A UCLH data pipeline for anti-microbial stewardship and decision making
+---
+
+# Camino Frances
 
 ## Camino
 
@@ -14,8 +18,14 @@ Camino is comprised of three main components:
 
 The dataset is modelled around the concept of a _prescribing encounter_, i.e. an inpatient hospital encounter during which a patient was prescribed an antibiotic with additional dimensions on the patient, the encounter, orders placed and results received during the encounter.
 
-The dataset is constructed from [Clarity](https://datahandbook.epic.com/ClarityDictionary) via the Camino passport and Pilgrimage.
+The dataset is constructed from Epic's [Clarity](https://datahandbook.epic.com/ClarityDictionary) data warehouse via the Camino passport[^1] and Pilgrimage.
 
 Prescribing encounters from **2020-01-01** onwards are included in the _full_ dataset although the "historical" tables go back as far as 2019-04-01.
 
-See the data model docs for a full description of the tables and columns in the dataset.
+{% hint style="info" %}
+We maintain a separate and **private** [Book of Camino](https://camino.antibiotics.help/) because the code and content is intertwined with Epic's intellectual property.&#x20;
+
+Please get in touch if you think you should have access.&#x20;
+{% endhint %}
+
+[^1]: This 'passport' is an internal passport and **not** related to the Antibiotic Passport concept being developed in the _Via Francigena_

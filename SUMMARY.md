@@ -4,8 +4,7 @@
 
 ## Foundations
 
-* [Camino Frances](foundations/camino-frances/README.md)
-  * [Overview](foundations/camino-frances/overview.md)
+* [Camino Frances](foundations/camino-frances.md)
 * [Camino Helix](foundations/camino-helix.md)
 * [London Loop](foundations/london-loop.md)
 
