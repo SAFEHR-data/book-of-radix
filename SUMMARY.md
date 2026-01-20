@@ -28,6 +28,7 @@
 * [Context](the-radix-way/context.md)
 * [Kaizen](the-radix-way/kaizen/README.md)
   * [Contributing](the-radix-way/kaizen/contributing.md)
+  * [Notebook](the-radix-way/kaizen/notebook.md)
 * [Team](the-radix-way/team/README.md)
   * [Steve Harris](the-radix-way/team/steve-harris.md)
   * [Akish Luintel](the-radix-way/team/akish-luintel.md)
