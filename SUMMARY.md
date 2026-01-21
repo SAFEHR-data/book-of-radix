@@ -1,6 +1,7 @@
 # Table of contents
 
 * [The Book of RADIX](README.md)
+  * [RADIX in a Nutshell](readme/radix-in-a-nutshell.md)
 
 ## Foundations
 
