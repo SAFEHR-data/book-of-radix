@@ -16,6 +16,10 @@ Use this document to manage version control and print or convert to a word docum
 Leave for now: will be written after Background and Rationale complete
 {% endhint %}
 
+{% hint style="info" %}
+**Via JRO:** Overview of the study; it should be sufficient to guide the reader to the main purpose of the study, how it will be conducted, on which population(s) and its expected benefits. It should say how the results of the study would benefit in terms of clinical practice, policy or the NHS as whole. The introduction may include a study flowchart (recommended: allows users of the document to follow the participant and study pathway with ease, e.g. via a Gantt chart or timeline of activity), and should detail whether this project is being conducted in relation to an academic qualification (a student project), or is related to any previous research sponsored by UCL.
+{% endhint %}
+
 ### 2. Background and Rationale
 
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-249" issueId="RAD-249" %}
