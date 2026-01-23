@@ -12,7 +12,15 @@ Use this document to manage version control and print or convert to a word docum
 
 ### 1. Introduction
 
+{% hint style="warning" %}
+Leave for now: will be written after Background and Rationale complete
+{% endhint %}
+
 ### 2. Background and Rationale
+
+{% @linear/embed url="https://linear.app/safehr/issue/RAD-249" issueId="RAD-249" %}
+
+{% @linear/embed url="https://linear.app/safehr/issue/RAD-248" issueId="RAD-248" %}
 
 ### 3. Objectives and outcome measures
 
