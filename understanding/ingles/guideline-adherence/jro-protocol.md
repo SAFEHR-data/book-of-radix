@@ -22,9 +22,13 @@ Leave for now: will be written after Background and Rationale complete
 
 ### 2. Background and Rationale
 
+The [INSPIRE cluster randomised trial](#user-content-fn-1)[^1] demonstrated that computerised provider order entry (CPOE) prompts reduced use of extended spectrum antibiotics.(Gohil _et al._, 2024, [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248))
+
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-249" issueId="RAD-249" %}
 
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-248" issueId="RAD-248" %}
+
+
 
 ### 3. Objectives and outcome measures
 
@@ -86,3 +90,6 @@ Leave for now: will be written after Background and Rationale complete
 
 ### 22. Appendices
 
+
+
+[^1]: Gohil, S.K. _et al._ (2024) ‘Stewardship prompts to improve antibiotic selection for pneumonia: The INSPIRE randomized clinical trial’, _JAMA_ \[Preprint]. Available at: [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248).
