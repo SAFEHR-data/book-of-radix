@@ -2,6 +2,7 @@
 
 * [The Book of RADIX](README.md)
   * [RADIX in a Nutshell](readme/radix-in-a-nutshell.md)
+  * [Context](readme/context.md)
 
 ## Foundations
 
@@ -37,3 +38,4 @@
   * [Steve Harris](the-radix-way/team/steve-harris.md)
   * [Akish Luintel](the-radix-way/team/akish-luintel.md)
   * [Matt Wilson](the-radix-way/team/matt-wilson.md)
+* [References](the-radix-way/references.md)
