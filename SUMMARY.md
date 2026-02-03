@@ -13,7 +13,10 @@
 ## Decisions
 
 * [Vista](decisions/vista.md)
-* [Portugés](decisions/portuges.md)
+* [Portugés](decisions/portuges/README.md)
+  * [Baby Radix](decisions/portuges/baby-radix.md)
+  * [Who does what?](decisions/portuges/who-does-what/README.md)
+    * [Quick reference](decisions/portuges/who-does-what/quick-reference.md)
 * [Primitivo](decisions/primitivo.md)
 
 ## Understanding
