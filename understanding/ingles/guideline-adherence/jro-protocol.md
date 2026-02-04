@@ -24,6 +24,20 @@ Leave for now: will be written after Background and Rationale complete
 
 The [INSPIRE cluster randomised trial](#user-content-fn-1)[^1] demonstrated that computerised provider order entry (CPOE) prompts reduced use of extended spectrum antibiotics.(Gohil _et al._, 2024, [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248))
 
+Urinary Tract Infections (UTIs) contribute to approximately 190,000 hospital admissions in England resulting in 1.2 million bed days in 2023/4. They are the most frequently occurring healthcare associated infection and account for approximately 23% of all antibiotic prescriptions in primary care, only second to respiratory tract infections in the UK (Dolk _et al. 2018,_[10.1093/jac/dkx504](https://doi.org/10.1093/jac/dkx504)).
+
+Most UTI prescriptions are given empirically before culture results are available. In Scotland,  it is estimated in Scotland 40% of bacteria that cause UTIs are resistant to antimicrobial used (McCowan _et al_,[https://doi.org/10.1186/s12879-022-07768-7](https://doi.org/10.1186/s12879-022-07768-7)). In 2024, Enterobacterales comprised 80.6% of urinary isolates, _Escherichia coli (E. coli)_  accounting for around 70% of all episodes (ESPAUR 2025).  UTIs that are not adequately treated can lead to bacteraemia, with approximately 50% of _E Coli_ bacteraemia originating from a urinary tract source. These enterobacterales _(E. coli, K. pneumoniae, and K. oxytoca_)  which are common causes of UTIs and bacteraemias dominate the burden of antibotic resistance accounting for 85% of antibiotic resistance bacteraemia of the total in 2024 (ESPAUR 2025)
+
+
+
+
+
+
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+From UKHSA , ESAPUR report
+
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-249" issueId="RAD-249" %}
 
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-248" issueId="RAD-248" %}

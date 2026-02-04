@@ -6,7 +6,9 @@ description: >-
 
 # Guideline Adherence
 
-**Inglés-Guidelines**: This is the first of the three layers of the Ingés studies. It focuses on using electronic alerts in the antibiotic prescribing workflow to improve guideline compliance. It both tests the efficacy of the alerting mechanism on clinician behaviour and patient outcomes as well as provides the trial scaffolding for the resistance (information) and estimated (predicted) susceptibilty studies.
+{% @linear/embed url="https://linear.app/safehr/issue/RAD-243" issueId="RAD-243" %}
+
+**Inglés-Guidelines**: This is the first of the three layers of the Inglés studies. It focuses on using electronic alerts in the antibiotic prescribing workflow to improve guideline compliance. It both tests the efficacy of the alerting mechanism on clinician behaviour and patient outcomes as well as provides the trial scaffolding for the resistance (information) and estimated (predicted) susceptibility studies.
 
 ## PICOT
 
