@@ -22,21 +22,39 @@ Leave for now: will be written after Background and Rationale complete
 
 ### 2. Background and Rationale
 
-Antimicrobial resistance (AMR) is a global problem, with an estimated 1.9 million deaths attributable to it annually forecast by 2050 (GBD 2021 Antimicrobial Resistance Collaborators, 2024, 10.1016/S0140-6736(24)01867-1). In 2019, it was estimated to cause more deaths than HIV/AIDS or Malaria. Within England, the burden of AMR is increasing with London comprising the highest rates of resistant bacteraemia,.&#x20;
+{% include "../../../.gitbook/includes/bg-antimicrobial-resistance-a....md" %}
+
+#### Disease-Specific Background
+
+_Prevalence_
+
+Urinary Tract Infections (UTIs) contribute to approximately 190,000 hospital admissions in England, resulting in 1.2 million bed days in 2023/4. They are the most frequently occurring healthcare associated infection and account for approximately 23% of all antibiotic prescriptions in primary care, second only to respiratory tract infections in the UK (Dolk _et al. 2018,_ 10.1093/jac/dkx504).
+
+_Importance_
+
+* Impact on patients
+* Impact on hospitals
+* Impact on healthcare systems
+
+{% include "../../../.gitbook/includes/bg-the-antibiotic-prescribing-....md" %}
 
 
 
-Urinary Tract Infections (UTIs) contribute to approximately 190,000 hospital admissions in England, resulting in 1.2 million bed days in 2023/4. They are the most frequently occurring healthcare associated infection and account for approximately 23% of all antibiotic prescriptions in primary care, second only to respiratory tract infections in the UK (Dolk _et al. 2018,_ [10.1093/jac/dkx504](https://doi.org/10.1093/jac/dkx504)).
-
-Most UTI prescriptions are given empirically before culture results are available.  An estimated 40% of bacteria that cause UTIs can be resistant to the antimicrobials used, with 18-21% of patients experiencing treatment failure. (McCowan _et al 2022_, [https://doi.org/10.1186/s12879-022-07768-7](https://doi.org/10.1186/s12879-022-07768-7), _Moon et al 2022_, [https://doi.org/10.1371/journal.pone.0277713](https://doi.org/10.1371/journal.pone.0277713)). UTI recurrence is common, with repeated infections, further compounding antimicrobial use and resistance.&#x20;
+Most UTI prescriptions are given empirically before culture results are available.  An estimated 40% of bacteria that cause UTIs can be resistant to the antimicrobials used, with 18-21% of patients experiencing treatment failure. (McCowan _et al 2022_, https://doi.org/10.1186/s12879-022-07768-7, _Moon et al 2022_, https://doi.org/10.1371/journal.pone.0277713). UTI recurrence is common, with repeated infections, further compounding antimicrobial use and resistance.&#x20;
 
 Inadequately treated UTIs can lead to bacteraemia, with approximately 50% of _E Coli_ bacteraemia originating from a urinary tract source (ESPAUR 2025). In 2024, Enterobacterales comprised 80.6% of urinary isolates, _Escherichia coli (E. coli)_ accounting for around 70% of all episodes (ESPAUR 2025).  These enterobacterales _(E. coli, K. pneumoniae, and K. oxytoca_) which commonly cause both UTIs and bacteraemia, accounted for 85% of resistant bacteraemia in 2024 (ESPAUR 2025).&#x20;
 
 Given this risk of resistance and the clinical impacts it may lead to, prescriptions should be guided by either pathogen susceptibility testing or local clinical guidance, whilst minimising extended spectrum antibiotic use to reduce further resistance.&#x20;
 
-The recent digitisation of electronic healthcare records through electronic healthcare systems (EHRS) presents an opportunity to improve antimicrobial usage. This can be through&#x20;
 
-&#x20;provide alerts to improve prescribing by using guidance, this can be leveraged to providing clinical decision support (CDS) tooIs. The [INSPIRE cluster randomised trial](#user-content-fn-1)[^1] demonstrated that computerised provider order entry (CPOE) prompts reduced use of extended spectrum antibiotics.(Gohil _et al._, 2024, [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248)).&#x20;
+
+{% include "../../../.gitbook/includes/bg-the-ehr-opportunity-for-ant....md" %}
+
+
+
+### Research Question
+
+In patients attending secondary care, diagnosed with an _<mark style="color:$warning;">acute infection</mark>_, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
 
 
 
@@ -58,17 +76,36 @@ From UKHSA , ESAPUR report
 
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-248" issueId="RAD-248" %}
 
-
-
 ### 3. Objectives and outcome measures
 
 #### Primary objective
 
+Evaluate the effectiveness of a clinically-integrated digital prescribing nudge for improving administration of guideline-concordant antibiotic treatment.
 
+#### Secondary objectives
 
-#### Secondary objective
+1. Evaluate the safety of the digital prescribing nudge&#x20;
+2. Evaluate the acceptability and utility of the nudge to clinicians
 
 #### Outcome measures/endpoints
+
+_Effectiveness:_
+
+1. Proportion of guideline-concordant antibiotic prescriptions in the nudge vs. standard care study arms at 24 hours after initial treatment initiation.
+2. Proportion of antibiotic switches from initial prescription at 24, 48 and 72 hours.
+3. Proportion of empirical escalation of antibiotic treatment (change in antibiotic treatment independent of new microbiological evidence).
+4. Antibiotic defined daily dose per adult per admission.
+
+_Safety:_
+
+1. All cause in-hospital and 90-day mortality.
+2. Length of hospital stay.
+3. Escalation to level 2 or 3 care.
+4. Readmission to hospital within 30 days of discharge.
+5. Time to intravenous to oral antibiotic switch.
+6. Rates of antibiotic co-prescription.
+7. Presence of infection or colonisation by antimicrobial resistant pathogens
+8. Incidence of specific infections e.g. C. difficile
 
 ### 4. Trial design
 
@@ -122,6 +159,3 @@ From UKHSA , ESAPUR report
 
 ### 22. Appendices
 
-
-
-[^1]: Gohil, S.K. _et al._ (2024) ‘Stewardship prompts to improve antibiotic selection for pneumonia: The INSPIRE randomized clinical trial’, _JAMA_ \[Preprint]. Available at: [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248).
