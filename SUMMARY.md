@@ -22,7 +22,8 @@
 ## Understanding
 
 * [Via Francigena](understanding/via-francigena.md)
-* [Via Dolorosa](understanding/via-dolorosa.md)
+* [Via Dolorosa](understanding/via-dolorosa/README.md)
+  * [Prospero Protocol](understanding/via-dolorosa/prospero-protocol.md)
 * [Inglés](understanding/ingles/README.md)
   * [Guideline Adherence](understanding/ingles/guideline-adherence/README.md)
     * [JRO study summary](understanding/ingles/guideline-adherence/jro-study-summary.md)
