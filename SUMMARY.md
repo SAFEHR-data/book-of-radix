@@ -17,7 +17,8 @@
   * [Baby Radix](decisions/portuges/baby-radix.md)
   * [Who does what?](decisions/portuges/who-does-what/README.md)
     * [Quick reference](decisions/portuges/who-does-what/quick-reference.md)
-* [Primitivo](decisions/primitivo.md)
+* [Primitivo](decisions/primitivo/README.md)
+  * [ML4H 2025 paper](decisions/primitivo/ml4h-2025-paper.md)
 
 ## Understanding
 
