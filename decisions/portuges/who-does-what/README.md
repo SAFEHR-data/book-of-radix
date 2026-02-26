@@ -50,7 +50,7 @@ The rule of thumb is that data features are _facts_, and model features are _rep
 This means that **data engineering** will build a data model with _one row per prediction event_ (e.g. antibiotic start time). That model will
 
 * present columns of atomic facts with clear "as-of" $$t_{presciption}$$  semantics, without leakage, with clear units, and stable semantic meaning and interpretation
-* this clinical ML feature store with _one row per prediction event_ is likely to be built from either [Camino](../../../foundations/camino-frances.md) (our modular pipeline that maintains tables based on their underlying concepts derived in turn from the UCLH enterprise data warehouse), or the HSL [Radix FHIR store](../../../foundations/camino-helix.md).&#x20;
+* this clinical ML feature store with _one row per prediction event_ is likely to be built from either [Camino](../../../foundations/camino-frances/) (our modular pipeline that maintains tables based on their underlying concepts derived in turn from the UCLH enterprise data warehouse), or the HSL [Radix FHIR store](../../../foundations/camino-helix.md).&#x20;
 
 And **model engineering** will build additional columns within the model pipeline but would not build _fresh_ tables or re-organise the "as-of" $$t_{presciption}$$ data structure.
 
@@ -85,7 +85,7 @@ Effectively we are building two products - a clinical feature store _and_ a many
       3. Consumed by the model engineer
    2. Layers
       1. **Bronze**: raw extracts from Epic Clarity/Caboodle mapped to standard fields&#x20;
-      2. **Silver**: [Camino](../../../foundations/camino-frances.md) - cleaned, deduplicated, time-aligned tables (meds, cultures, encounters)
+      2. **Silver**: [Camino](../../../foundations/camino-frances/) - cleaned, deduplicated, time-aligned tables (meds, cultures, encounters)
       3. **Gold:** the event-anchored fact table: ⁠features and labels "as-of" $$t_{presciption}$$&#x20;
    3. Never "_saved_" because it represents _current_ truth
 2. Model Design Matrix (representations)
