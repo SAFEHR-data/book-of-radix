@@ -56,6 +56,8 @@ Given this risk of resistance and the clinical impacts it may lead to, prescript
 
 In patients attending secondary care, diagnosed with an _<mark style="color:$warning;">acute infection</mark>_, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
 
+### Research Question 2
+
 
 
 
@@ -108,6 +110,8 @@ _Safety:_
 8. Incidence of specific infections e.g. C. difficile
 
 ### 4. Trial design
+
+
 
 ### 5. Sampling methods
 

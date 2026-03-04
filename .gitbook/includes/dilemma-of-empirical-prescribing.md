@@ -1,0 +1,9 @@
+---
+title: Dilemma of Empirical prescribing
+---
+
+Given this risk of resistance, prescribing the correct antibiotic for the correct pathogen is crucial to reduce immediate harm to the patient. However, a  dilemma exists in prescribing broader-spectrum or unnecessary antibiotics will drive resistance, causing future harm to both the patient and society.Therefore, optimal antibiotic prescribing should be guided by confirmation of infection, and microbiology susceptibility testing of isolates, whilst taking into account the future harm of resistance. Several challenged hinder optimal prescribing in practice.&#x20;
+
+Microbiology results take days, meaning initial treatment decisions are made empiricially before susceptibility data is available. Prior antibiotic usage and resistance history is therefore crucial to guide therapy, yet this is often fragmented and not readily accessible due to patients accessing multiple providers across different non-interoperable systems. Even when information is available, the volume and complexity of clinical and microbiological data can make accurate, timely decision-making difficult, particularly in emergency settings where clinicians are under pressure. This challenge is further amplified by the fact that most prescribing decisions are not made by infection specialists, meaning that the nuanced judgement required to balance immediate patient need against the future risk of driving resistance is not always available at the bedside.
+
+As a result, prescribers often rely on heuristics and local guidelines, rather than patient specific data. Whilst an infection specialist input can be sought, the volume of cases would make individual review impractical. Consequently, empirical therapies are frequently initiated without full consideration of patient-specific risk factors (9).&#x20;
