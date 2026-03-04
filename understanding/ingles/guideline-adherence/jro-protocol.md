@@ -24,6 +24,8 @@ Leave for now: will be written after Background and Rationale complete
 
 {% include "../../../.gitbook/includes/bg-antimicrobial-resistance-a....md" %}
 
+{% include "../../../.gitbook/includes/bg-the-antibiotic-prescribing-....md" %}
+
 #### Disease-Specific Background
 
 _Prevalence_
@@ -36,8 +38,6 @@ _Importance_
 * Impact on hospitals
 * Impact on healthcare systems
 
-{% include "../../../.gitbook/includes/bg-the-antibiotic-prescribing-....md" %}
-
 
 
 Most UTI prescriptions are given empirically before culture results are available.  An estimated 40% of bacteria that cause UTIs can be resistant to the antimicrobials used, with 18-21% of patients experiencing treatment failure. (McCowan _et al 2022_, https://doi.org/10.1186/s12879-022-07768-7, _Moon et al 2022_, https://doi.org/10.1371/journal.pone.0277713). UTI recurrence is common, with repeated infections, further compounding antimicrobial use and resistance.&#x20;
@@ -48,6 +48,8 @@ Given this risk of resistance and the clinical impacts it may lead to, prescript
 
 
 
+
+
 {% include "../../../.gitbook/includes/bg-the-ehr-opportunity-for-ant....md" %}
 
 
@@ -55,6 +57,16 @@ Given this risk of resistance and the clinical impacts it may lead to, prescript
 ### Research Question
 
 In patients attending secondary care, diagnosed with an _<mark style="color:$warning;">acute infection</mark>_, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
+
+_In adult patients presenting to secondary care with a diagnosis of urinary tract infection or pyelonephritis, does the availability of in situ recent and clinically relevant microbiological culture and sensitivity data at the point of antibiotic prescribing reduce the rate of antimicrobial pathogen mismatch, compared with standard empirical prescribing without prior microbiology?_
+
+
+
+
+
+
+
+
 
 ### Research Question 2
 
@@ -83,6 +95,8 @@ From UKHSA , ESAPUR report
 #### Primary objective
 
 Evaluate the effectiveness of a clinically-integrated digital prescribing nudge for improving administration of guideline-concordant antibiotic treatment.
+
+Evaluate the effectiveness of a clinically integrated digital prescribing nudge for improving administration of antibiotics which reduce pathogen drug mismatch.
 
 #### Secondary objectives
 
@@ -113,6 +127,53 @@ _Safety:_
 
 
 
+_A single centre, randomised, parallel assignment digitally integrated service evaluation._
+
+_Adult patients attending hospital who receive an antibiotic order for an infection, who are prescribed an antibiotic will be included.  There are no exclusion criteria._
+
+_Recruitment will be automatic.  Patients who fulfil the above eligibility criteria will be enrolled in the study and randomised between intervention and standard care arms.  All study data will be extracted from the electronic patient record.  There will be no additional testing or follow up requirements._ &#x20;
+
+_Description of the proposed study workflow:_
+
+1. _Patient diagnosed with infection.  The patient enters the study at the point of antibiotic order placement by the treating clinician.  As such, they may be located in the emergency or outpatient departments or may be an inpatient.  In all cases, they will be receiving their first antibiotic order for the current encounter._&#x20;
+2. _Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav)._
+3. _Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (e.g. Lung/CVS, Community Acquired Pneumonia, Mild).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature._
+
+_There are then two options for delivering the guideline-adherence nudge:_
+
+_Option 1 - Order Validation Prompt_
+
+* _Closing the antibiotic order (or signing the order, tbc) triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
+  * _Is this the first antibiotic order associated with the current patient encounter (Y/N)_
+  * _Is there discordance between the selected antibiotic, highlighted indication data and clinical guideline (Y/N)_
+    * _Discordance is determined by applying the following logical criteria:_
+      * _1) Does the patient have a documented allergy to penicillin or a penicillin containing antibiotic preparation?_
+      * _2) Does the selected antibiotic for the stated indication align with the guideline recommendation?_&#x20;
+  * _Has the patient already been randomised within the study during the current patient encounter (Y/N)_
+* _If the patient is receiving the first antibiotic order for the encounter, and the order is discordant with the recommended treatment in the clinical guideline, and the patient has not been previously randomised within the study within the current encounter, then a fourth screening step will occur:_
+  * _Does the patient have a documented allergy to the guideline-concordant antibiotic recommendation? (Y/N)_
+* _If the patient is allergic to the guideline concordant antibiotic then the alert is suppressed and the patient is not randomised._
+
+
+
+_Option 2 - Our Practice Advisory_
+
+_Exactly the same workflow but fires after signing process.  Applies same logical criteria. Under discussion whether 1 > 2 in terms of delivering randomisation and supporting above logic._
+
+
+
+_If the eligibility criteria are satisfied then the patient will be randomised to alert or standard care arms (no alert)._ &#x20;
+
+_If randomised to the alert arm, the intervention will display to the clinician during the antibiotic order process:_\
+\
+&#xNAN;_<mark style="background-color:$warning;">"You are selecting \[abx X1] for \[indication Y].</mark>_\
+_<mark style="background-color:$warning;">UCLH guidelines suggest use of \[abx X2] for \[indication Y].</mark>_\
+_<mark style="background-color:$warning;">Click here to change the current antibiotic order to \[abx X2], or select a clinical justiification for deviating from the clinical guideline:</mark>_\
+_<mark style="background-color:$warning;">1) Requirement for extended spectrum agent use given diagnostic uncertainty</mark>_\
+_<mark style="background-color:$warning;">2) Requirement for extended spectrum agent use given additional clinical risk</mark>_ \
+_<mark style="background-color:$warning;">3) Approved extended spectrum agent use from microbiology</mark>_\
+_<mark style="background-color:$warning;">4) Other (Comment)"</mark>_
+
 ### 5. Sampling methods
 
 #### Inclusion criteria
@@ -132,6 +193,8 @@ _Safety:_
 ### 9. Data management
 
 ### 10. Statistical considerations
+
+
 
 ### 11. Assessment and management of risk
 
