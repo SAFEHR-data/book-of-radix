@@ -123,6 +123,14 @@ _Stewardship:_
 
 ## PICOT
 
+#### &#x20;<a href="#id-4.-trial-design" id="id-4.-trial-design"></a>
+
+
+
+
+
+
+
 #### 4. Trial design <a href="#id-4.-trial-design" id="id-4.-trial-design"></a>
 
 This is a single centre prospective individually randomised control trial evaluating the effectiveness of a clinically integrated digital prescribing aide that surfaces relevant antimicrobial resistance and antimicrobial usage at the point of prescribing for a range of infections that affect the urinary tract.
@@ -191,7 +199,7 @@ The patients randomised into three arms:
 
 #### 10. Statistical considerations <a href="#id-10.-statistical-considerations" id="id-10.-statistical-considerations"></a>
 
-Will need percentages
+Will need percentages of risks
 
 
 
@@ -208,6 +216,8 @@ Will need percentages
 **Peer review**
 
 **Patient and public involvement**
+
+
 
 #### 15. Monitoring and auditing <a href="#id-15.-monitoring-and-auditing" id="id-15.-monitoring-and-auditing"></a>
 
