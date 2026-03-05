@@ -1,17 +1,9 @@
 ---
-title: 'BG: The EHR Opportunity for Ant...'
+title: Background - EHR opportunity
 ---
 
-### The EHR Opportunity for Antibiotics
+The NHS 10 year plan calls for all NHS trusts to adopt an Electronic Health Record Systems (EHRS),presenting a significant opportunity to address the challenges of antimicrobial prescribing. Increasing adoption of comprehensive EHRS, encompassing prescribing, patient records and laboratory results including microbiology data creates an opportunity to creates the foundation of learning health system that can improve antibiotic use.&#x20;
 
-* The NHS 10-year plan calls for all NHS trusts to have adopted a digital electronic patient record (EPR) by March 2026.
-* With increasing adoption of comprehensive EPRs, including electronic prescribing and linkage across other electronic health records, there is the potential to create learning health systems for improving antibiotic use.
-* This may be through:
-  * Modification of the EPR architecture to improve antibiotic prescribing practices.&#x20;
-    * \[REF]
-  * Interceding with antibiotic prescriptions in real-time via computerised clinical decision support systems (CDSS).&#x20;
-    * The [INSPIRE cluster randomised trial](#user-content-fn-1)[^1] demonstrated that computerised provider order entry (CPOE) prompts reduced use of extended spectrum antibiotics.(Gohil _et al._, 2024, [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248))
-  * Linkage across EHRs to deliver additional information not normally visible to clinicians at the point of antibiotic prescribing.
-    * \[REF] &#x20;
+This may be achieved through modification of EPR architecture to embed better prescribing practices. This can be through real-time intervention via clinical decision support systems (CDSS) at the point of prescribing. Although conceptually straightforward, successful CDS alerts must deliver accurate information, in clinical context and at the point of care, and must be well-integrated into the clinical workflow. Otherwise they suffer from poor usability, alert fatigue which can  itself be a patient safety risk.
 
-[^1]: Gohil, S.K. _et al._ (2024) ‘Stewardship prompts to improve antibiotic selection for pneumonia: The INSPIRE randomized clinical trial’, _JAMA_ \[Preprint]. Available at: [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248).
+The potential of this approach is supported by studies such as the INSPIRE trial which demonstrated that prompts at the time of prescribing significantly reduced the use of extended spectrum antibiotics.&#x20;

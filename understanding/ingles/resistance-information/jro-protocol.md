@@ -1,34 +1,34 @@
 ---
-description: >-
-  Does an in situ electronic alert during antibiotic prescribing warning about
-  known resistance  safely reduce bug-drug mismatches?
+description: As per the UCLH JRO template headings
 ---
 
-# Resistance information
+# JRO protocol
 
-##
+{% hint style="warning" %}
+See [UCL/UCLH Interventional studies protocol template](https://www.ucl.ac.uk/joint-research-office/sites/joint_research_office/files/jro_interventional_protocol_template.docx) (section number matches the template)
+
+Use this document to manage version control and print or convert to a word document directly from here when ready to submit
+{% endhint %}
 
 ## 1. Introduction
 
-
+{% hint style="warning" %}
+Leave for now: will be written after Background and Rationale complete
+{% endhint %}
 
 ## 2. Background and Rationale
 
 #### Antimicrobial Resistance
 
-Antimicrobial resistance (AMR) is a global problem, with an estimated 1.9 million deaths anually attributable to AMR forecast by 2050 (GBD 2021 Antimicrobial Resistance Collaborators, 2024, 10.1016/S0140-6736(24)01867-1). In 2019, it was estimated to cause more deaths than HIV/AIDS or Malaria. Within England, the burden of AMR is increasing with London comprising the highest rates of resistant bacteraemia.  AMR rates are highest in deprived areas and certain ethnic groups, with particular impact on the elderly (ESPAUR 23-24 report). Human antibiotic consumption is a major driver in resistance at a population level and at an indicidual level(Thom KA, et al. Clin Infect Dis 2019; 68: 1581–84.)
+{% include "../../../.gitbook/includes/bg-antimicrobial-resistance-a....md" %}
 
 #### Disease Specific Background
 
-_Prevalence_
+{% include "../../../.gitbook/includes/background-uti-epidemiology.md" %}
 
-Urinary Tract Infections (UTIs) contribute to approximately 190,000 hospital admissions in England, resulting in 1.2 million bed days in 2023/4. They are the most frequently occurring healthcare associated infection and account for approximately 23% of all antibiotic prescriptions in primary care, second only to respiratory tract infections in the UK (Dolk _et al. 2018,_ 10.1093/jac/dkx504).
+#### Dilemma of empirical prescribing
 
-Most UTI prescriptions are given empirically before culture results are available.  An estimated 40% of bacteria that cause UTIs can be resistant to the antimicrobials used, with 18-21% of patients experiencing treatment failure. (McCowan _et al 2022_, https://doi.org/10.1186/s12879-022-07768-7, _Moon et al 2022_, https://doi.org/10.1371/journal.pone.0277713). UTI recurrence is common, with repeated infections, further compounding antimicrobial use and resistance.&#x20;
-
-Inadequately treated UTIs can lead to bacteraemia, with approximately 50% of _E Coli_ bacteraemia originating from a urinary tract source (ESPAUR 2025). In 2024, Enterobacterales comprised 80.6% of urinary isolates, _Escherichia coli (E. coli)_ accounting for around 70% of all episodes (ESPAUR 2025).  These enterobacterales _(E. coli, K. pneumoniae, and K. oxytoca_) which commonly cause both UTIs and bacteraemia, accounted for 85% of resistant bacteraemia in 2024 (ESPAUR 2025).&#x20;
-
-{% include "../../.gitbook/includes/dilemma-of-empirical-prescribing.md" %}
+{% include "../../../.gitbook/includes/dilemma-of-empirical-prescribing.md" %}
 
 #### Antimicrobial Stewardship
 
@@ -36,13 +36,7 @@ Antimicrobial stewardship seeks to preserve antibiotic effectiveness by limiting
 
 #### The EHRS opportunity for antibiotic stewardship
 
-The NHS 10 year plan calls for all NHS trusts to adopt an Electronic Health Record Systems (EHRS),presenting a significant opportunity to address the challenges of antimicrobial prescribing. Increasing adoption of comprehensive EHRS, encompassing prescribing, patient records and laboratory results including microbiology data creates an opportunity to creates the foundation of learning health system that can improve antibiotic use.&#x20;
-
-This may be achieved through modification of EPR architecture to embed better prescribing practices. This can be through real-time intervention via clinical decision support systems (CDSS) at the point of prescribing. Although conceptually straightforward, successful CDS alerts must deliver accurate information, in clinical context and at the point of care, and must be well-integrated into the clinical workflow. Otherwise they suffer from poor usability, alert fatigue which can  itself be a patient safety risk.
-
-The potential of this approach is supported by studies such as the INSPIRE trial which demonstrated that prompts at the time of prescribing significantly reduced the use of extended spectrum antibiotics.&#x20;
-
-
+{% include "../../../.gitbook/includes/bg-the-ehr-opportunity-for-ant....md" %}
 
 #### The Local Context
 
@@ -66,7 +60,7 @@ In patients attending secondary care with a presumed urinary tract infection or 
 
 We would investigate this through the following design.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

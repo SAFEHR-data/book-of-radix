@@ -22,37 +22,35 @@ Leave for now: will be written after Background and Rationale complete
 
 ### 2. Background and Rationale
 
+#### Antimicrobial Resistance
+
 {% include "../../../.gitbook/includes/bg-antimicrobial-resistance-a....md" %}
+
+#### The Antibiotic Prescribing Problem
 
 {% include "../../../.gitbook/includes/bg-the-antibiotic-prescribing-....md" %}
 
-#### Disease-Specific Background
+#### Disease specific background
 
-_Prevalence_
+{% include "../../../.gitbook/includes/background-uti-epidemiology.md" %}
 
-Urinary Tract Infections (UTIs) contribute to approximately 190,000 hospital admissions in England, resulting in 1.2 million bed days in 2023/4. They are the most frequently occurring healthcare associated infection and account for approximately 23% of all antibiotic prescriptions in primary care, second only to respiratory tract infections in the UK (Dolk _et al. 2018,_ 10.1093/jac/dkx504).
+#### Dilemma of empirical prescribing
 
-_Importance_
+{% include "../../../.gitbook/includes/dilemma-of-empirical-prescribing.md" %}
 
-* Impact on patients
-* Impact on hospitals
-* Impact on healthcare systems
-
-
-
-Most UTI prescriptions are given empirically before culture results are available.  An estimated 40% of bacteria that cause UTIs can be resistant to the antimicrobials used, with 18-21% of patients experiencing treatment failure. (McCowan _et al 2022_, https://doi.org/10.1186/s12879-022-07768-7, _Moon et al 2022_, https://doi.org/10.1371/journal.pone.0277713). UTI recurrence is common, with repeated infections, further compounding antimicrobial use and resistance.&#x20;
-
-Inadequately treated UTIs can lead to bacteraemia, with approximately 50% of _E Coli_ bacteraemia originating from a urinary tract source (ESPAUR 2025). In 2024, Enterobacterales comprised 80.6% of urinary isolates, _Escherichia coli (E. coli)_ accounting for around 70% of all episodes (ESPAUR 2025).  These enterobacterales _(E. coli, K. pneumoniae, and K. oxytoca_) which commonly cause both UTIs and bacteraemia, accounted for 85% of resistant bacteraemia in 2024 (ESPAUR 2025).&#x20;
-
-Given this risk of resistance and the clinical impacts it may lead to, prescriptions should be guided by either pathogen susceptibility testing or local clinical guidance, whilst minimising extended spectrum antibiotic use to reduce further resistance.&#x20;
-
-
-
-
+#### The EHR Opportunity for Antibiotics
 
 {% include "../../../.gitbook/includes/bg-the-ehr-opportunity-for-ant....md" %}
 
-
+* The NHS 10-year plan calls for all NHS trusts to have adopted a digital electronic patient record (EPR) by March 2026.
+* With increasing adoption of comprehensive EPRs, including electronic prescribing and linkage across other electronic health records, there is the potential to create learning health systems for improving antibiotic use.
+* This may be through:
+  * Modification of the EPR architecture to improve antibiotic prescribing practices.&#x20;
+    * \[REF]
+  * Interceding with antibiotic prescriptions in real-time via computerised clinical decision support systems (CDSS).&#x20;
+    * The [INSPIRE cluster randomised trial](#user-content-fn-1)[^1] demonstrated that computerised provider order entry (CPOE) prompts reduced use of extended spectrum antibiotics.(Gohil _et al._, 2024, [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248))
+  * Linkage across EHRs to deliver additional information not normally visible to clinicians at the point of antibiotic prescribing.
+    * \[REF] &#x20;
 
 ### Research Question
 
@@ -226,3 +224,6 @@ _<mark style="background-color:$warning;">4) Other (Comment)"</mark>_
 
 ### 22. Appendices
 
+
+
+[^1]: Gohil, S.K. _et al._ (2024) ‘Stewardship prompts to improve antibiotic selection for pneumonia: The INSPIRE randomized clinical trial’, _JAMA_ \[Preprint]. Available at: [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248).

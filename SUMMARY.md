@@ -31,7 +31,9 @@
     * [JRO study summary](understanding/ingles/guideline-adherence/jro-study-summary.md)
     * [JRO protocol](understanding/ingles/guideline-adherence/jro-protocol.md)
     * [Notes](understanding/ingles/guideline-adherence/notes.md)
-  * [Resistance information](understanding/ingles/resistance-information.md)
+  * [Resistance Information](understanding/ingles/resistance-information/README.md)
+    * [JRO study summary](understanding/ingles/resistance-information/jro-study-summary.md)
+    * [JRO protocol](understanding/ingles/resistance-information/jro-protocol.md)
   * [Estimated susceptibility](understanding/ingles/estimated-susceptibility.md)
 
 ## The RADIX way
