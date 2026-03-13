@@ -8,6 +8,7 @@
 
 * [Camino Frances](foundations/camino-frances/README.md)
   * [marimo](foundations/camino-frances/marimo.md)
+  * [RStudio](foundations/camino-frances/rstudio.md)
   * [Superset](foundations/camino-frances/superset.md)
 * [Camino Helix](foundations/camino-helix.md)
 * [London Loop](foundations/london-loop.md)
