@@ -36,6 +36,7 @@
   * [Resistance Information](understanding/ingles/resistance-information/README.md)
     * [JRO study summary](understanding/ingles/resistance-information/jro-study-summary.md)
     * [JRO protocol](understanding/ingles/resistance-information/jro-protocol.md)
+    * [Ingles 2.1 Bug Drug mismatch](understanding/ingles/resistance-information/ingles-2.1-bug-drug-mismatch.md)
   * [Estimated susceptibility](understanding/ingles/estimated-susceptibility.md)
 
 ## The RADIX way

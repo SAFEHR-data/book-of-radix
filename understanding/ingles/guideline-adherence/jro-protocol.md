@@ -54,35 +54,11 @@ Leave for now: will be written after Background and Rationale complete
 
 ### Research Question
 
-In patients attending secondary care, diagnosed with an _<mark style="color:$warning;">acute infection</mark>_, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
-
-_In adult patients presenting to secondary care with a diagnosis of urinary tract infection or pyelonephritis, does the availability of in situ recent and clinically relevant microbiological culture and sensitivity data at the point of antibiotic prescribing reduce the rate of antimicrobial pathogen mismatch, compared with standard empirical prescribing without prior microbiology?_
+In patients attending secondary care, diagnosed with a Community Acquired Pneumonia, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
 
 
 
 
-
-
-
-
-
-### Research Question 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-From UKHSA , ESAPUR report
 
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-249" issueId="RAD-249" %}
 
@@ -116,18 +92,22 @@ _Safety:_
 2. Length of hospital stay.
 3. Escalation to level 2 or 3 care.
 4. Readmission to hospital within 30 days of discharge.
-5. Time to intravenous to oral antibiotic switch.
-6. Rates of antibiotic co-prescription.
-7. Presence of infection or colonisation by antimicrobial resistant pathogens
-8. Incidence of specific infections e.g. C. difficile
+
+_Stewardship:_
+
+1. _Antibiotic consumption measured as Defined Daily Doses per admission overall and in AWaRE categories split by indication_
+2. Time to intravenous to oral antibiotic switch.
+3. _Days of Antibiotic Spectrum consumption per admission and indication_
+4. _Days of therapy of antibiotics_&#x20;
+5. Co-Administration of antibiotics
+6. _Proportion of patients who receive IV or Oral antibiotic courses_&#x20;
+7. _Rates of Clostridoides Difficile in both groups, ESBL, CRO and Ciprofloxacin Resistance isolates, and Vancomycin resistant enterococci rates_
 
 ### 4. Trial design
 
-
-
 _A single centre, randomised, parallel assignment digitally integrated service evaluation._
 
-_Adult patients attending hospital who receive an antibiotic order for an infection, who are prescribed an antibiotic will be included.  There are no exclusion criteria._
+_Adult patients attending hospital who receive an antibiotic order for an infection, who are prescribed an antibiotic will be included._ &#x20;
 
 _Recruitment will be automatic.  Patients who fulfil the above eligibility criteria will be enrolled in the study and randomised between intervention and standard care arms.  All study data will be extracted from the electronic patient record.  There will be no additional testing or follow up requirements._ &#x20;
 
@@ -137,11 +117,9 @@ _Description of the proposed study workflow:_
 2. _Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav)._
 3. _Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (e.g. Lung/CVS, Community Acquired Pneumonia, Mild).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature._
 
-_There are then two options for delivering the guideline-adherence nudge:_
+_The Nudge Our Practice Advisory_
 
-_Option 1 - Order Validation Prompt_
-
-* _Closing the antibiotic order (or signing the order, tbc) triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
+* _Signing the order, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
   * _Is this the first antibiotic order associated with the current patient encounter (Y/N)_
   * _Is there discordance between the selected antibiotic, highlighted indication data and clinical guideline (Y/N)_
     * _Discordance is determined by applying the following logical criteria:_
@@ -152,13 +130,7 @@ _Option 1 - Order Validation Prompt_
   * _Does the patient have a documented allergy to the guideline-concordant antibiotic recommendation? (Y/N)_
 * _If the patient is allergic to the guideline concordant antibiotic then the alert is suppressed and the patient is not randomised._
 
-
-
-_Option 2 - Our Practice Advisory_
-
-_Exactly the same workflow but fires after signing process.  Applies same logical criteria. Under discussion whether 1 > 2 in terms of delivering randomisation and supporting above logic._
-
-
+_Under discussion whether 1 > 2 in terms of delivering randomisation and supporting above logic._
 
 _If the eligibility criteria are satisfied then the patient will be randomised to alert or standard care arms (no alert)._ &#x20;
 
@@ -166,19 +138,37 @@ _If randomised to the alert arm, the intervention will display to the clinician 
 \
 &#xNAN;_<mark style="background-color:$warning;">"You are selecting \[abx X1] for \[indication Y].</mark>_\
 _<mark style="background-color:$warning;">UCLH guidelines suggest use of \[abx X2] for \[indication Y].</mark>_\
-_<mark style="background-color:$warning;">Click here to change the current antibiotic order to \[abx X2], or select a clinical justiification for deviating from the clinical guideline:</mark>_\
+_<mark style="background-color:$warning;">Click here to change the current antibiotic order to \[abx X2], or select a clinical justiification for deviating from the clinical guideline:</mark>_
+
+\
 _<mark style="background-color:$warning;">1) Requirement for extended spectrum agent use given diagnostic uncertainty</mark>_\
 _<mark style="background-color:$warning;">2) Requirement for extended spectrum agent use given additional clinical risk</mark>_ \
-_<mark style="background-color:$warning;">3) Approved extended spectrum agent use from microbiology</mark>_\
+_<mark style="background-color:$warning;">3) Approved extended spectrum agent use from microbiology/Infectious Diseases</mark>_
+
+_<mark style="background-color:$warning;">4) Prescription indication is incorrect as prescribed therefore guideline not relevant</mark>_\
 _<mark style="background-color:$warning;">4) Other (Comment)"</mark>_
 
 ### 5. Sampling methods
 
 #### Inclusion criteria
 
+All patients who are over the age of 18 who are prescribed antibiotics for the following indications:
+
+1. Pneumonia (Community, mild , CURB-65 0-1)
+2. Pneumonia (Community, moderate, CURB-65 2)
+3. Pneumonia (Community, severe, CURB-65 >/=3)
+
+
+
 #### Exclusion criteria
 
+Pregnant women
+
+Age <18
+
 #### Recruitment
+
+
 
 #### Consent
 
