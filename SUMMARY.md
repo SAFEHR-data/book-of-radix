@@ -22,6 +22,7 @@
     * [Quick reference](decisions/portuges/who-does-what/quick-reference.md)
 * [Primitivo](decisions/primitivo/README.md)
   * [ML4H 2025 paper](decisions/primitivo/ml4h-2025-paper.md)
+  * [Arxiv 2026 paper](decisions/primitivo/arxiv-2026-paper.md)
 
 ## Understanding
 
