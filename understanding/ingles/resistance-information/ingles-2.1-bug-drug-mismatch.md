@@ -72,8 +72,6 @@ Does a digital alert, triggered when a bug-drug mismatch is detected at the poin
 
 As the majority of urinary tract infections are caused by Enterobacterales, and given that organisms such as _Pseudomonas_ can represent colonisation in catheters rather than true infection, this trial will use **Enterobacterales isolates only** as the basis for detecting bug-drug mismatch. Specifically, the alert will be triggered when a prescribed antibiotic is discordant with susceptibility results from a prior Enterobacterales isolate within the preceding 3 months.
 
-
-
 **PICOT**
 
 _Population_
@@ -104,15 +102,23 @@ _Description of the proposed study workflow:_
 2. _Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav)._
 3. _Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (as described above).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature._
 
+
+
 _The Nudge Our Practice Advisory_
 
 * _Signing the order, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
-  * _Is there discordance between the selected antibiotic, and sensitivity to previous microbiology over the last 90 days. (Y/N)_
-  * _Has the patient already been randomised within the study during the current patient encounter (Y/N)_
+* _Has the patient already been randomised within the study during the current patient encounter (Y/N) If Yes, excluded from the study._
+* _Is there discordance between the selected antibiotic, and sensitivity to previous microbiology in Enterobacterales group  over the last 90 days. (Y/N) If Yes, then randomised to either Intervention arm or Control Arm, If no then randomised to control arm only._
+
+
+
+*
+
+    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 * _If the patient is receiving the first order for a UTI in this encounter, and the order is discordant with the recommended treatment in the clinical guideline, and the patient has not been previously randomised within the study within the current encounter, then a further screening step will occur:_
   * _In intervention arm-> Surface microbiology within the last 90 days where resistance is shown. There is no advice but just highlighting prior resistance._ &#x20;
   * _Does the patient have a documented allergy to the guideline-concordant antibiotic recommendation? (Y/N)_
-* _If the patient is allergic to the guideline concordant antibiotic then the alert is suppressed and the patient is not randomised._
+* _._
 
 _Under discussion whether 1 > 2 in terms of delivering randomisation and supporting above logic._
 
