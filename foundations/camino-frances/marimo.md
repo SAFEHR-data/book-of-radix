@@ -53,3 +53,17 @@ If you named the connection `con` (i.e. ran `con = connect_to_camino()`  at the 
 * [marimo user documentation](https://docs.marimo.io/guides/)
 * [DuckDB Python library documentation](https://duckdb.org/docs/stable/clients/python/overview)
 {% endhint %}
+
+### Troubleshooting
+
+A common problem is that an update happens to the Camino data lake, for example, a new table or column has been promised, but it doesn't appear in the individual researchers' marimo session.
+
+If this happens try:
+
+* Running a query to read the last value of `camino.bronze.Timestamps` which should show the last Clarity extraction (when the data was last updated).
+* Re-establishing a connection. That is: re-evaluate the cell which calls `connect_to_camino` .
+* Restarting the kernel. Save your work, then in the bottom right of the Window, select the "⌘" symbol and choose "Restart kernel".
+
+<figure><img src="../../.gitbook/assets/command-palette.png" alt="" width="244"><figcaption></figcaption></figure>
+
+* Save your work, then ask one of the RSE team to update and restart your marimo instance.
