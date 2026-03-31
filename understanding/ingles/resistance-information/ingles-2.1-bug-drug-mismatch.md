@@ -245,10 +245,6 @@ Safety outcomes including mortality, escalation of care, and readmission will be
 
 Antibiotic consumption metrics (defined daily doses, days of antibiotic spectrum coverage, days of therapy) will be analysed using generalised linear models with a gamma distribution or Tweedie distribution.  Route of administration (intravenous versus oral) will be analysed using logistic regression. Antimicrobial resistance and healthcare-associated infection rates will be reported descriptively and compared using chi-squared or Fisher's exact tests as appropriate.
 
-**Multiplicity**
-
-No formal adjustment for multiple comparisons will be applied to secondary, safety, or stewardship outcomes. These analyses will be considered exploratory and interpreted with appropriate caution.
-
 **Missing data**
 
 As all data will be extracted from the EHRS, missing data are anticipated to be minimal. The extent and pattern of missing data will be reported. If missing data exceed 5% for any variable, sensitivity analyses using multiple imputation will be considered.
