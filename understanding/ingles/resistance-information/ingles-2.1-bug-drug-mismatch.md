@@ -60,111 +60,115 @@ As the majority of urinary tract infections are caused by Enterobacterales, and 
 
 Some Enterobacterales have "expected resistant pehnotypes", which isolates of a species are generally universally resistant (>90% of all isolates irrespective of origin exhibit a characteristic resistance mechanism or MIC values above the PK/PD breakpoint listed in EUCAST tables. As laboratories are expected to not report this result or report the isolate as resistant we will map these as resistant as per the EUCAST Expected Phenotypes v1.2 rules ([https://www.eucast.org/fileadmin/eucast/pdf/expert\_rules/Expected\_Resistant\_Phenotypes\_v1.2\_20230113.pdf](https://www.eucast.org/fileadmin/eucast/pdf/expert_rules/Expected_Resistant_Phenotypes_v1.2_20230113.pdf)).&#x20;
 
+
+
 #### Ingles 2.1
 
 Research Question
 
-Does a digital alert, triggered when a bug-drug mismatch is detected in Enterobacterales bacteria at the point of prescribing, which surfaces the resistance data, reduce mismatch rates in patients with urinary tract infections compared with a guideline-concordance nudge?
+In adult patients with urinary tract infections, does a digital alert triggered by a detected bug-drug mismatch in Enterobacterales, which surfaces antimicrobial susceptibility data at the point of prescribing, reduce mismatch rates compared with standard care?
 
 **PICOT**
 
-_Population_
+_**Population**_
 
-All adults patients (over 18) who are not pregnant and are prescribed an antibiotic for the following indications
+All adult patients (over 18) who are not pregnant and are prescribed an antibiotic for one of the following urinary tract infection diagnoses:
 
 1. Lower Urinary Tract Infection (Cystitis)
 2. Upper Urinary Tract Infection (Pyelonephritis)
 3. Recurrent Urinary Tract Infection&#x20;
 4. Catheter-associated UTI
 
-**Intervention arm:** An interruptive OPA card is triggered when a bug-drug mismatch is detected, surfacing the patient's prior microbiology data and highlighting of resistance for Enterobacterales.
+_**Exclusion**_&#x20;
 
-**Control arm:** An interruptive OPA card nudges toward guideline-concordant prescribing. Prior microbiology data is surfaced but not highlighted.
+1. Pregnancy
+2. Under 18s
+3. Previously randomised in the trial on the same encounter
 
-_Intervention_
+**Intervention**
 
-_Adult patients attending hospital who receive an antibiotic order for a Urinary Source Infection indication as described above, who are prescribed an antibiotic will be included._ &#x20;
+Recruitment will be automatic. Patients who fulfil the eligibility criteria, described above, will be enrolled in the study and randomised between the intervention and standard care arms at the point of prescription. All study data will be extracted from the electronic health record system (EHRS). There will be no additional testing or follow-up requirements beyond routine clinical care.
 
-If a patient has a prescription for one of those indications signed then an Our Practice Advisory Card will be triggered. &#x20;
+**Our Practice Advisory (OPA)**
 
-_Recruitment will be automatic.  Patients who fulfil the above eligibility criteria will be enrolled in the study and randomised between intervention and standard care arms.  All study data will be extracted from the electronic patient record.  There will be no additional testing or follow up requirements._ &#x20;
+The intervention is delivered through an Our Practice Advisory (OPA) card, a digital alert embedded within the EHRS that is triggered at the point of antibiotic order signature. The OPA card functions as follows:
 
-_Description of the proposed study workflow:_
+**Study workflow**
 
-1. _Patient treated for a UTI indication.  The patient enters the study at the point of antibiotic order placement by the treating clinician.  As such, they may be located in the emergency or outpatient departments or may be an inpatient._ &#x20;
-2. _Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav)._
-3. _Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (as described above).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature._
+1. A patient is treated for a UTI indication. The patient enters the study at the point of antibiotic order placement by the treating clinician.
+2. The clinician selects the desired antibiotic from the orders tab search box (e.g., co-amoxiclav) and enters the antibiotic indication data within the order window, including body system and specific indication. This is a mandated step within the EHRS. The dose, timing, frequency, and duration are entered. The order is accepted and appears in the orders sidebar for signature.
+3. Upon signing the order, a silent evaluation of the study logic rules is triggered: a. Has the patient already been randomised within the study during the current encounter? If yes, the patient is excluded from the study. b. If no, the patient is randomised into the intervention arm or the control arm.
 
-_The Nudge Our Practice Advisory_
+**Intervention arm**
 
-* _Signing the order, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
-* _Has the patient already been randomised within the study during the current patient encounter or the last 28 days (Y/N) If Yes, excluded from the study._
-* _Is there any prior microbiology from the last 90 days? Y/N  if No:_
+Patients randomised to the intervention arm are subject to a silent logic check for a bug-drug mismatch between the prescribed antibiotic and any Enterobacterales isolate identified from the patient's microbiological results. Two outcomes are possible:
 
-**Then the patient goes to ARM 1 which is advisory content and guideline adherence information only with a prompt for clinicians to check allergy status.**&#x20;
+If a bug-drug mismatch is detected, an OPA card is displayed to the prescribing clinician at the point of order signature highlighting the bug-drug mismatch.The OPA card does not recommend an antibiotic. The clinician may then choose to amend or continue with the original prescription with the information they have been given.
 
-**If Yes further logic is triggered?**
+If no bug-drug mismatch is detected,  the patient receives standard care which may be guideline adherence or no OPA card.
 
-* _Is there discordance between the selected antibiotic, and sensitivity to previous microbiology in Enterobacterales bacteria over the last 90 days. (Y/N) If Yes, then randomised to either Intervention arm or Control Arm, If no then randomised to prior microbiology arm (Arm 2)._
+**Comparison (Control Arm)**
 
-_**Arm 2 illustrates prior microbiology data as well as guideline adherence information only with a prompt for clinicians to check allergy status.**_
-
-_**If no then randomised to prior microbiology Arm 2**_&#x20;
-
-_**If Yes then can be randomised into Arm 2 or 3**_
-
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+Patients randomised to the control arm receive standard care. Standard care reflects the existing prescribing environment at the hospital, which may include pre-existing guideline-concordance OPA cards that operate independently of the trial, or no digital decision support at all. No bug-drug mismatch alert is displayed to clinicians for patients in the control arm, regardless of whether a mismatch exists.
 
 
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Outcomes
 
 _Primary outcome_
 
-1. Evaluate the effectiveness of a clinically-integrated digital prescribing nudge surfacing antimicrobial resistance information at the point of prescribing.&#x20;
-
-**Proportion and adjusted odds ratios of patients prescribed an antibiotic to which their most recent culture isolate (from the defined types) within the preceding 90 days demonstrated resistance in the two different groups (Arm 3 vs Arm 1 and 2)**
+1. The proportion of patients prescribed an antibiotic to which a culture isolate, from the defined Enterobacterales organisms, within the preceding 90 days demonstrated resistance. This will be expressed as both a proportion and adjusted odds ratios comparing the intervention and control arms.
 
 _Secondary outcomes_
 
-1. Proportion and adjusted odds ratio of patients whose urinary or blood culture isolate of Enterobacterales, obtained between 24 hours before and 48 hours after the index antibiotic prescription, demonstrated resistance to the antibiotic prescribed between the two groups.
-2. Proportion and adjusted odds ratio of antibiotic prescription changes at the point of prescribing in the bug-drug mismatch group, compared between intervention and control arms
-3. Proportion and adjusted odds ratio of empiric escalation of antibiotic therapy (broadening of antimicrobial spectrum in the absence of new microbiological evidence) within 72 hours of initial prescription comparing the groups using an increase of Antibiotic Spectrum Index to define escalation or a switch from PO to IV.
-4. Among prescribing episodes, in the Control group (Arm 1), and no resistance to the prescribed antibiotic was documented within the preceding 90 days, the proportion in which the antibiotic prescription was changed to adhere to guidance?
-5. Among patients with documented bug-drug mismatch to the initially prescribed antibiotic within the preceding 90 days, the proportion whose current admission cultures grew an organism sensitive to the initially prescribed antibiotic.
+1. The proportion and adjusted odds ratio of patients whose urinary or blood culture isolate of Enterobacterales, obtained between 24 hours before and 48 hours after the index antibiotic prescription, demonstrated resistance to the antibiotic prescribed.
+2. Proportion and adjusted odds ratio of antibiotic prescription changes at the point of prescribing among patients with a detected bug-drug mismatch, compared between the intervention and control arms.
+3. Time to antibiotic, the interval between the initial antibiotic order and the first administration of an antibiotic.
+4. Time to appropriate antibiotic, the interval between the initial antibiotic order and the first administration of an antibiotic to which the isolate is susceptible.
+5. Among patients with a documented bug-drug mismatch to the initially prescribed antibiotic within the preceding 90 days, the proportion whose cultures obtained between 24 hours before and 48 hours after the index antibiotic prescription grew an organism susceptible to the initially prescribed antibiotic.
+6. Alert override rate (intervention arm only), the proportion of bug-drug mismatch OPA cards where the clinician chose to continue with the original prescription without amendment.
 
 _Safety:_
 
-1. All cause in-hospital and 90-day mortality between intervention and control groups
-2. Length of hospital stay (days) between intervention and control groups
-3. Escalation to level 2 or 3 care (ECU or ICU)  between intervention and control groups
-4. Readmission to hospital within 30 days of discharge  between intervention and control groups
-5. Time to intravenous to oral antibiotic switch (hours)  between intervention and control groups in initial IV therapy at the point of inclusion into trial.
-6. Time from initial antibiotic order signature to prescription of an alternative antibiotic, compared between intervention and control groups
+1. All-cause mortality: in-hospital, 30-day, and 90-day mortality, compared between the intervention and control arms.
+2. Length of hospital stay: measured in days from admission to discharge, compared between the intervention and control arms.
+3. Escalation of care: proportion of patients escalated to level 2 (enhanced care unit) or level 3 (intensive care unit) care, compared between the intervention and control arms.
+4. Readmission: proportion of patients readmitted to hospital within 30 days of discharge, compared between the intervention and control arms.
+5. Time to intravenous to oral switch: among patients receiving intravenous antibiotic therapy at the point of inclusion into the trial, the interval in hours from initiation of intravenous therapy to the first oral antibiotic prescription, compared between the intervention and control arms.
+6. Time to alternative antibiotic: the interval from the initial antibiotic order signature to the prescription of an alternative antibiotic for Urinary tract indication, compared between the intervention and control arms.
 
-_Stewardship:_
+**Stewardship outcomes**
 
-1. _Antibiotic consumption measured as Defined Daily Doses per admission overall and in AWaRE categories split by indication of antibiotic_&#x20;
-2. _Days of Antibiotic Spectrum consumption per admission and indication of antibiotic prescribed in that encounter_
-3. _Days of therapy of antibiotics in each group_&#x20;
-4. _Proportions/rates of patients who receive IV or Oral antibiotic courses in each group_
-5. _Rates of Clostridoides Difficile in both groups, ESBL, CRO and Ciprofloxacin Resistance isolates, and Vancomycin resistant enterococci rates_ ( 90 days)
+1. Antibiotic consumption: Measured as defined daily doses (DDD) per admission, reported overall and stratified by WHO AWaRe (Access, Watch, Reserve) category and by antibiotic indication, compared between the intervention and control arms.
+2. Days of antibiotic spectrum coverage (DASC): Measured per admission and stratified by indication of the antibiotic prescribed during that encounter, compared between the intervention and control arms.
+3. Days of therapy (DOT): Total days of antibiotic therapy per admission, compared between the intervention and control arms.
+4. Route of administration: the proportion of patients receiving intravenous versus oral antibiotic courses, compared between the intervention and control arms.
+5. Carbapenem and Ciprofloxacin usage: Total DDDs of Carbapenem and Ciprofloxacin usage in both groups.
+6. Antimicrobial resistance and healthcare-associated infection: Rates of the following within 90 days of the index prescription, compared between the intervention and control arms:
+   * _Clostridioides difficile_ infection that was treated&#x20;
+   * _Clostridioides difficile_  colonisation if negative prior
+   * Extended-spectrum beta-lactamase (ESBL)-producing organism colonisation if negative prior
+   * Carbapenem-resistant organisms (CRO) colonisation if negative prior
+   * Ciprofloxacin-resistant isolates colonisation if negative prior
+   * Vancomycin-resistant enterococci (VRE) colonisation if negative prior
 
-##
+
 
 #### 4. Trial design <a href="#id-4.-trial-design" id="id-4.-trial-design"></a>
 
-This is a single centre prospective individually randomised control trial evaluating the effectiveness of a clinically integrated digital prescribing aide that surfaces relevant antimicrobial resistance at the point of prescribing for a range of infections that affect the urinary tract.
+This is a single centre prospective individually randomised control trial evaluating the effectiveness of a clinically integrated digital prescribing aid that surfaces relevant antimicrobial resistance data at the point of prescribing for a range of infections that affect the urinary tract.
 
-Eligible patients would be randomised 1:1 to the intervention (digital nudge) or control (guideline adherence with prior microbiology or guideline adherence with no prior microbiology) using an automated system within the EHRS. Once a patient is allocated, their assignment will be fixed for all subsequent prescribing episodes during the study period. This ensures consistency of the intervention within individual patients across multiple encounters.
+Eligible patients will be randomised 1:1 to the intervention (bug-drug mismatch OPA) or standard of care (guideline OPA card or no clinical OPA card) using an automated system within the EHRS. Once a patient is allocated, their assignment will be fixed for all subsequent prescribing episodes during the encounter. This ensures consistency of the intervention within individual patients across multiple prescribing episodes.
 
 Due to the nature of the intervention, prescribers cannot be blinded to treatment allocation, they will either see the digital nudge or they will not. Patients are not actively involved in the intervention and will not be aware of their allocation. Outcome assessment will be conducted using routinely collected electronic data and can be performed by analysts blinded to group allocation.
 
-The patients randomised into three arms but in reality these are intervention and a control arm which is nuanced.&#x20;
+_Patient-level randomisation introduces a risk of contamination, as prescribers exposed to the alert may modify their subsequent prescribing behaviour for patients in the control arm. However, the alternative approach of randomising by prescriber does not eliminate this risk, as colleagues may discuss the alert with one another, meaning that contamination may persist across prescribers. Alternative trial designs such as a stepped-wedge cluster randomised trial have also been considered, in which different wards would receive the alert or be sequentially introduced to the intervention arm, as demonstrated in the SCREEN trial. However, very few prescribers at this site are ward-based; most rotate between clinical areas, and contamination would therefore remain a concern under a cluster design._
 
-
-
-_Patient level randomisation introduces a risk of contamination as prescribers exposed to these alerts may modify their subsequent prescribing behaviour. However, the alternative method of randomising by prescriber does not eliminate this risk,  as colleagues may discuss the alert with each other meaning that contamination may persist. Other trial designs such as a step wedged cluster randomised trial could be considered, where different wards had the alert or were sequentially included to the intervention arm as demonstrated in the SCREEN trial. However, very few prescribers are ward based and often rotate between clinical areas therefore would have similar contamination._&#x20;
-
-_Therefore, patient level randomisation offers a pragmatic design. Furthermore, the nature of the intervention itself mitigates the impact of contamination: the interruptive alert in arm 1 surfaces individualised prior antimicrobial resistance and usage history specific to each patient. Unlike a generic prescribing prompt, each alert presents different information, limiting the extent to which exposure to one patient's alert can meaningfully influence prescribing decisions for another._
+_Patient-level randomisation therefore offers the most pragmatic design. Furthermore, the nature of the intervention itself mitigates the impact of contamination. Unlike a generic prescribing prompt, each alert presents patient-specific susceptibility data unique to the individual encounter, limiting the extent to which exposure to one patient's alert can meaningfully influence prescribing decisions for another._
 
 #### 5. Sampling methods <a href="#id-5.-sampling-methods" id="id-5.-sampling-methods"></a>
 
@@ -187,9 +191,11 @@ Age under 18
 
 Pregnancy
 
+Already enrolled in trial in that encounter
+
 **Recruitment**
 
-All inpatient and outpatient encounters prescribed antibiotics with the indication above and without the exclusion.
+All inpatient and outpatient encounters prescribed antibiotics with the indication above and without the exclusion criteria
 
 **Consent**
 
@@ -201,9 +207,7 @@ The study will seek approval under the appropriate regulatory framework for the 
 
 
 
-<br>
 
-#### 6. Intervention <a href="#id-6.-intervention" id="id-6.-intervention"></a>
 
 
 
@@ -215,9 +219,47 @@ The study will seek approval under the appropriate regulatory framework for the 
 
 #### 10. Statistical considerations <a href="#id-10.-statistical-considerations" id="id-10.-statistical-considerations"></a>
 
-Will need percentages of risks
+**Baseline characteristics**
 
+Baseline demographic and clinical characteristics will be summarised by randomisation arm. Categorical variables (e.g., Sex, UTI indication category, prescribing team,outpatient vs inpatient) will be reported as frequencies and percentages and compared using chi-squared tests or Fisher's exact test. Continuous variables (e.g., Age) will be assessed for normality. Normally distributed variables will be reported as means with standard deviations and compared using independent samples t-tests. Non-normally distributed variables will be reported as medians with interquartile ranges and compared using Kruskal-Wallis tests.&#x20;
 
+Logistic regression will be used for the primary and secondary binary outcomes, adjusted for age, sex, ethnicity, UTI indication category, and location of prescription. Covariates will be retained in the final model if they demonstrate an independent association with the outcome.
+
+**Primary outcome analysis**
+
+The primary outcome:  the proportion of patients prescribed an antibiotic to which a culture isolate of Enterobacterales within the preceding 90 days demonstrated resistance, will be compared between the intervention and control arms. A logistic regression model will be used to estimate the adjusted odds ratio, with adjustment for pre-specified covariates including age, sex, UTI indication category, and location of prescription. Results will be reported as proportions, unadjusted and adjusted odds ratios with 95% confidence intervals and associated p-values.
+
+**Secondary outcome analyses**
+
+Binary secondary outcomes (e.g., contemporaneous bug-drug mismatch, antibiotic prescription changes, IV versus oral prescribing rates) will be analysed using logistic regression, reported as adjusted odds ratios with 95% confidence intervals.
+
+Time-to-event secondary outcomes (e.g., time to antibiotic, time to appropriate antibiotic, time to IV-to-oral switch, time to alternative antibiotic) will be analysed using Cox proportional hazards regression or linear regression as appropriate, depending on the distribution of the data.
+
+Continuous secondary outcomes (e.g., length of hospital stay, days of therapy, defined daily doses, days of antibiotic spectrum coverage) are anticipated to be positively skewed. These will be analysed using generalised linear models with a gamma distribution, with results reported as adjusted rate ratios with 95% confidence intervals and associated p-values.
+
+**Safety outcomes**
+
+Safety outcomes including mortality, escalation of care, and readmission will be analysed as binary outcomes using logistic regression, adjusted for pre-specified covariates. Results will be reported as adjusted odds ratios with 95% confidence intervals.
+
+**Stewardship outcomes**
+
+Antibiotic consumption metrics (defined daily doses, days of antibiotic spectrum coverage, days of therapy) will be analysed using generalised linear models with a gamma distribution or Tweedie distribution.  Route of administration (intravenous versus oral) will be analysed using logistic regression. Antimicrobial resistance and healthcare-associated infection rates will be reported descriptively and compared using chi-squared or Fisher's exact tests as appropriate.
+
+**Multiplicity**
+
+No formal adjustment for multiple comparisons will be applied to secondary, safety, or stewardship outcomes. These analyses will be considered exploratory and interpreted with appropriate caution.
+
+**Missing data**
+
+As all data will be extracted from the EHRS, missing data are anticipated to be minimal. The extent and pattern of missing data will be reported. If missing data exceed 5% for any variable, sensitivity analyses using multiple imputation will be considered.
+
+**Significance level**
+
+A two-sided significance level of 0.05 will be used for the primary outcome.
+
+**Sample size**
+
+_Calculation needed_&#x20;
 
 #### 11. Assessment and management of risk <a href="#id-11.-assessment-and-management-of-risk" id="id-11.-assessment-and-management-of-risk"></a>
 
