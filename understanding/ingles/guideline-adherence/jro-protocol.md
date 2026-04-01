@@ -74,12 +74,10 @@ In patients attending secondary care, diagnosed with a Community Acquired Pneumo
 
 Evaluate the effectiveness of a clinically-integrated digital prescribing nudge for improving administration of guideline-concordant antibiotic treatment.
 
-
-
 #### Secondary objectives
 
-1. Evaluate the safety of the digital prescribing nudge&#x20;
-2. Evaluate the acceptability and utility of the nudge to clinicians
+1. Evaluate the safety of the digital prescribing nudge.&#x20;
+2. Evaluate the effect of the digital prescribing nudge on antibiotic stewardship.&#x20;
 
 #### Outcome measures/endpoints
 
@@ -109,36 +107,34 @@ _Stewardship:_
 
 ### 4. Trial design
 
-_A single centre, randomised, parallel assignment digitally integrated service evaluation._
+A single centre, randomised, parallel assignment, digitally integrated service evaluation.
 
-_Adult patients attending hospital who receive an antibiotic order for an infection, who are prescribed an antibiotic will be included._ &#x20;
+Adult patients attending hospital who receive an antibiotic order for an infection, who are prescribed an antibiotic will be included. &#x20;
 
-_Recruitment will be automatic.  Patients who fulfil the above eligibility criteria will be enrolled in the study and randomised between intervention and standard care arms.  All study data will be extracted from the electronic patient record.  There will be no additional testing or follow up requirements._ &#x20;
+Patients who fulfil the above eligibility criteria will be enrolled in the study and randomised between intervention and standard care arms.  All study data will be extracted from the electronic patient record.  There will be no additional testing or follow up requirements. &#x20;
 
-_Description of the proposed study workflow:_
+Description of the proposed study workflow:
 
-1. _Patient diagnosed with infection.  The patient enters the study at the point of antibiotic order placement by the treating clinician.  As such, they may be located in the emergency or outpatient departments or may be an inpatient.  In all cases, they will be receiving their first antibiotic order for the current encounter._&#x20;
-2. _Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav)._
-3. _Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (e.g. Lung/CVS, Community Acquired Pneumonia, Mild).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature._
+1. Patient diagnosed with infection.  The patient enters the study at the point of antibiotic order placement by the treating clinician.  As such, they may be located in the emergency or outpatient departments or may be an inpatient.  In all cases, they will be receiving their first antibiotic order for the current encounter.&#x20;
+2. Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav).
+3. Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (e.g. Lung/CVS, Community Acquired Pneumonia, Mild).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature.
 
-_The Nudge Our Practice Advisory_
+The Guideline Compliance Nudge
 
-* _Signing the order, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
-  * _Is this the first antibiotic order associated with the current patient encounter (Y/N)_
-  * _Is there discordance between the selected antibiotic, highlighted indication data and clinical guideline (Y/N)_
-    * _Discordance is determined by applying the following logical criteria:_
-      * _1) Does the patient have a documented allergy to penicillin or a penicillin containing antibiotic preparation?_
-      * _2) Does the selected antibiotic for the stated indication align with the guideline recommendation?_&#x20;
-  * _Has the patient already been randomised within the study during the current patient encounter (Y/N)_
-* _If the patient is receiving the first antibiotic order for the encounter, and the order is discordant with the recommended treatment in the clinical guideline, and the patient has not been previously randomised within the study within the current encounter, then a fourth screening step will occur:_
-  * _Does the patient have a documented allergy to the guideline-concordant antibiotic recommendation? (Y/N)_
-* _If the patient is allergic to the guideline concordant antibiotic then the alert is suppressed and the patient is not randomised._
+* Signing the order, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:
+  * Is this the first antibiotic order associated with the current patient encounter? (Y/N)
+  * Is there discordance between the selected antibiotic, highlighted indication data and clinical guideline? (Y/N)
+    * Discordance is determined by applying the following logical criteria:
+      * 1\) Does the patient have a documented allergy to penicillin or a penicillin containing antibiotic preparation?
+      * 2\) Does the selected antibiotic for the stated indication align with the guideline recommendation?&#x20;
+  * Has the patient already been randomised within the study during the current patient encounter? (Y/N)
+* If the patient is receiving the first antibiotic order for the encounter, and the order is discordant with the recommended treatment in the clinical guideline, and the patient has not been previously randomised within the study within the current encounter, then a fourth screening step will occur:
+  * Does the patient have a documented allergy to the guideline-concordant antibiotic recommendation? (Y/N)
+* If the patient is allergic to the guideline concordant antibiotic then the alert is suppressed and the patient is not randomised.
 
-_Under discussion whether 1 > 2 in terms of delivering randomisation and supporting above logic._
+If the eligibility criteria are satisfied then the patient will be randomised to the clinician-facing nudge alert group or standard care (no alert). &#x20;
 
-_If the eligibility criteria are satisfied then the patient will be randomised to alert or standard care arms (no alert)._ &#x20;
-
-_If randomised to the alert arm, the intervention will display to the clinician during the antibiotic order process:_\
+If randomised to the alert arm, the intervention will display to the clinician during the antibiotic order process:\
 \
 &#xNAN;_<mark style="background-color:$warning;">"You are selecting \[abx X1] for \[indication Y].</mark>_\
 _<mark style="background-color:$warning;">UCLH guidelines suggest use of \[abx X2] for \[indication Y].</mark>_\
@@ -156,13 +152,13 @@ _<mark style="background-color:$warning;">4) Other (Comment)"</mark>_
 
 #### Inclusion criteria
 
-All patients who are over the age of 18 who are prescribed antibiotics for the following indications:
+All patients over the age of 18 who are prescribed antibiotics for the following indications:
 
 1. Pneumonia (Community, mild , CURB-65 0-1)
 2. Pneumonia (Community, moderate, CURB-65 2)
 3. Pneumonia (Community, severe, CURB-65 >/=3)
 
-
+Inclusion criteria are derived automatically from patients receiving an antibiotic order where the clinician enters the above indication data at a mandated step within the prescribing process.&#x20;
 
 #### Exclusion criteria
 
@@ -172,9 +168,11 @@ Age <18
 
 #### Recruitment
 
-
+Patients will be automatically recruited based on receipt of an antibiotic prescription meeting the above eligibility criteria. &#x20;
 
 #### Consent
+
+This study seeks to ascertain the effectiveness and safety of a digital prescribing intervention to encourage compliance with an existing standard of care.  This represents a quality improvement evaluation and does not seek to generate generalisable data as to the effectiveness of the proposed intervention in other contexts.  As such, it is comparable to a similar non-digital intervention such as placing a poster of current guidelines in clinical areas for the same aim.  The use of randomisation in this context is intended to deliver a more rigorous evaluation of the effectiveness of the proposed intervention than existing methods current used in quality improvement methodology e.g. before-after analysis. &#x20;
 
 ### 6. Intervention
 
