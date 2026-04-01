@@ -30,9 +30,11 @@ Leave for now: will be written after Background and Rationale complete
 
 {% include "../../../.gitbook/includes/bg-the-antibiotic-prescribing-....md" %}
 
-#### Disease specific background
+#### Community Acquired Pneumonia
 
-{% include "../../../.gitbook/includes/background-uti-epidemiology.md" %}
+Over 1.5 million NHS hospital patients need antibiotics for major infections yearly.  Of these, Community Acquired Pneumonia (CAP) represents 83,000 hospital admissions and 29,000 deaths annually \[Guest J and Morris A (1997), Daniel et al (2016)].  Guidelines recommend the use of "standard-spectrum" (SS) antibiotics for mild or moderate pneumonia.  However, clinicians often deviate from these guidelines, following them only 58% of the time according to national data (Daniel et al (2016)].  In cases where clinicians deviate from guidelines, "extended-spectrum" (ES) agents are often used.  In some subgroups, prescribing ES agents risks side effects and contributes to antimicrobial resistance (AMR) without any benefit for the individual patient \[Wei et al (2024), Gerber et al (2017)]. &#x20;
+
+Inappropriate antibiotic use drives AMR.  In England in 2024, 66,730 people developed antibiotic-resistant infections, with 2,640 directly attributable deaths.  The UK government's National Action Plan prioritises optimising antibiotic use, with the NHS setting a 70% target for SS antibiotic use in first-line prescriptions by 2029.  Given the clear guidelines for antibiotic prescribing in CAP, interventions designed to both improve guideline compliance and build evidence regarding patterns of intentional non-compliance (to identify individual or subgroup benefits of altering guideline-based care) are essential.    &#x20;
 
 #### Dilemma of empirical prescribing
 
@@ -52,6 +54,8 @@ Leave for now: will be written after Background and Rationale complete
   * Linkage across EHRs to deliver additional information not normally visible to clinicians at the point of antibiotic prescribing.
     * \[REF] &#x20;
 
+{% include "../../../.gitbook/includes/study-overview.md" %}
+
 ### Research Question
 
 In patients attending secondary care, diagnosed with a Community Acquired Pneumonia, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
@@ -70,7 +74,7 @@ In patients attending secondary care, diagnosed with a Community Acquired Pneumo
 
 Evaluate the effectiveness of a clinically-integrated digital prescribing nudge for improving administration of guideline-concordant antibiotic treatment.
 
-Evaluate the effectiveness of a clinically integrated digital prescribing nudge for improving administration of antibiotics which reduce pathogen drug mismatch.
+
 
 #### Secondary objectives
 
