@@ -2,8 +2,10 @@
 title: Background - EHR opportunity
 ---
 
-The NHS 10 year plan calls for all NHS trusts to adopt an Electronic Health Record Systems (EHRS),presenting a significant opportunity to address the challenges of antimicrobial prescribing. Increasing adoption of comprehensive EHRS, encompassing prescribing, patient records and laboratory results including microbiology data creates an opportunity to creates the foundation of learning health system that can improve antibiotic use.&#x20;
+The NHS 10-Year Plan requires all NHS trusts to adopt an electronic patient record (EPR) by March 2026. Comprehensive EPRs — integrating prescribing, clinical records, laboratory results, and microbiology data — create the infrastructure for a learning health system capable of improving antibiotic use in real time.
 
-This may be achieved through modification of EPR architecture to embed better prescribing practices. This can be through real-time intervention via clinical decision support systems (CDSS) at the point of prescribing. Although conceptually straightforward, successful CDS alerts must deliver accurate information, in clinical context and at the point of care, and must be well-integrated into the clinical workflow. Otherwise they suffer from poor usability, alert fatigue which can  itself be a patient safety risk.
+Three mechanisms offer particular promise:
 
-The potential of this approach is supported by studies such as the INSPIRE trial which demonstrated that prompts at the time of prescribing significantly reduced the use of extended spectrum antibiotics by surfacing whether extended spectrum antibiotics were likely to be needed.
+1. **Modification of EPR architecture** to embed guideline-concordant prescribing practices directly into clinical workflows. \[REF]
+2. **Real-time clinical decision support** at the point of prescribing, delivered via computerised clinical decision support systems (CDSS). To be effective, such alerts must provide accurate, contextually relevant information and be well integrated into clinical workflows; poorly designed alerts risk low usability and alert fatigue, which is itself a patient safety concern. The INSPIRE cluster-randomised trial demonstrated that computerised provider order entry (CPOE) prompts significantly reduced extended-spectrum antibiotic use at the point of prescribing (Gohil et al., 2024, https://doi.org/10.1001/jama.2024.6248).
+3. **Cross-system EHR linkage** to surface patient-specific information — such as prior microbiology results and antibiotic history — not otherwise visible to clinicians at the point of prescribing. \[REF]

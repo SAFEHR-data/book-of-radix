@@ -32,37 +32,27 @@ Leave for now: will be written after Background and Rationale complete
 
 #### Community Acquired Pneumonia
 
-Over 1.5 million NHS hospital patients need antibiotics for major infections yearly.  Of these, Community Acquired Pneumonia (CAP) represents 83,000 hospital admissions and 29,000 deaths annually \[Guest J and Morris A (1997), Daniel et al (2016)].  Guidelines recommend the use of "standard-spectrum" (SS) antibiotics for mild or moderate pneumonia.  However, clinicians often deviate from these guidelines, following them only 58% of the time according to national data (Daniel et al (2016)].  In cases where clinicians deviate from guidelines, "extended-spectrum" (ES) agents are often used.  In some subgroups, prescribing ES agents risks side effects and contributes to antimicrobial resistance (AMR) without any benefit for the individual patient \[Wei et al (2024), Gerber et al (2017)]. &#x20;
+Community-acquired pneumonia (CAP) accounts for 83,000 hospital admissions and 29,000 deaths in England annually (Guest J and Morris A, 1997; Daniel et al, 2016), making it one of the most significant infectious indications for antibiotic treatment among the 1.5 million NHS inpatients who require antibiotics for major infections each year.
 
-Inappropriate antibiotic use drives AMR.  In England in 2024, 66,730 people developed antibiotic-resistant infections, with 2,640 directly attributable deaths.  The UK government's National Action Plan prioritises optimising antibiotic use, with the NHS setting a 70% target for SS antibiotic use in first-line prescriptions by 2029.  Given the clear guidelines for antibiotic prescribing in CAP, interventions designed to both improve guideline compliance and build evidence regarding patterns of intentional non-compliance (to identify individual or subgroup benefits of altering guideline-based care) are essential.    &#x20;
+Guidelines recommend standard-spectrum (SS) antibiotics for mild-to-moderate CAP. In practice, clinicians follow this recommendation only 58% of the time (Daniel et al, 2016), frequently substituting extended-spectrum (ES) agents. In a subset of patients, ES agents confer no individual benefit whilst increasing the risk of side effects and contributing to AMR (Wei et al, 2024; Gerber et al, 2017).
+
+The consequences are measurable: in England in 2024, 66,730 people developed antibiotic- resistant infections, with 2,640 directly attributable deaths. The NHS has set a target of 70% SS antibiotic use in first-line prescriptions by 2029, in line with the UK National Action Plan on AMR. Achieving this will require interventions that both improve guideline adherence and generate evidence on the clinical circumstances in which deviation is genuinely warranted.
 
 #### Dilemma of empirical prescribing
 
 {% include "../../../.gitbook/includes/dilemma-of-empirical-prescribing.md" %}
 
-#### The EHR Opportunity for Antibiotics
+#### **The Electronic Health Record Opportunity**
 
 {% include "../../../.gitbook/includes/bg-the-ehr-opportunity-for-ant....md" %}
 
-* The NHS 10-year plan calls for all NHS trusts to have adopted a digital electronic patient record (EPR) by March 2026.
-* With increasing adoption of comprehensive EPRs, including electronic prescribing and linkage across other electronic health records, there is the potential to create learning health systems for improving antibiotic use.
-* This may be through:
-  * Modification of the EPR architecture to improve antibiotic prescribing practices.&#x20;
-    * \[REF]
-  * Interceding with antibiotic prescriptions in real-time via computerised clinical decision support systems (CDSS).&#x20;
-    * The [INSPIRE cluster randomised trial](#user-content-fn-1)[^1] demonstrated that computerised provider order entry (CPOE) prompts reduced use of extended spectrum antibiotics.(Gohil _et al._, 2024, [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248))
-  * Linkage across EHRs to deliver additional information not normally visible to clinicians at the point of antibiotic prescribing.
-    * \[REF] &#x20;
+#### Study Overview
 
 {% include "../../../.gitbook/includes/study-overview.md" %}
 
 ### Research Question
 
-In patients attending secondary care, diagnosed with a Community Acquired Pneumonia, can an electronic nudge embedded into clinical workflows improve guideline-concordant antibiotic prescribing safely and effectively?
-
-
-
-
+In adult patients admitted to secondary care with community-acquired pneumonia, does an electronic nudge embedded into the antibiotic prescribing workflow increase guideline-concordant prescribing safely and effectively?
 
 {% @linear/embed url="https://linear.app/safehr/issue/RAD-249" issueId="RAD-249" %}
 
@@ -70,83 +60,96 @@ In patients attending secondary care, diagnosed with a Community Acquired Pneumo
 
 ### 3. Objectives and outcome measures
 
-#### Primary objective
+#### 3. Objectives and Outcome Measures
 
-Evaluate the effectiveness of a clinically-integrated digital prescribing nudge for improving administration of guideline-concordant antibiotic treatment.
+**Primary Objective**
 
-#### Secondary objectives
+To evaluate the effectiveness of a clinically integrated electronic stewardship prompt in increasing guideline-concordant antibiotic prescribing in patients admitted to secondary care with community-acquired pneumonia.
 
-1. Evaluate the safety of the digital prescribing nudge.&#x20;
-2. Evaluate the effect of the digital prescribing nudge on antibiotic stewardship.&#x20;
+**Secondary Objectives**
 
-#### Outcome measures/endpoints
+1. To evaluate the safety of the electronic stewardship prompt.
+2. To evaluate the effect of the electronic stewardship prompt on antibiotic stewardship.
 
-_Effectiveness:_
+**Outcome Measures**
 
-1. Proportion of guideline-concordant antibiotic prescriptions in the nudge vs. standard care study arms at 24 hours after initial treatment initiation.
-2. Proportion of antibiotic switches from initial prescription at 24, 48 and 72 hours.
-3. Proportion of empirical escalation of antibiotic treatment (change in antibiotic treatment independent of new microbiological evidence).
-4. Antibiotic defined daily dose per adult per admission.
+**Effectiveness**
 
-_Safety:_
+1. Proportion of guideline-concordant antibiotic prescriptions in the stewardship prompt versus standard care arms at 24 hours after initial antibiotic prescribing.
 
-1. All cause in-hospital and 90-day mortality.
+**Safety**
+
+1. All-cause in-hospital mortality and 90-day mortality.
 2. Length of hospital stay.
-3. Escalation to level 2 or 3 care.
+3. Escalation to level 2 or level 3 care.
 4. Readmission to hospital within 30 days of discharge.
 
-_Stewardship:_
+_The study is not powered to detect differences in the safety outcomes listed above. These will be monitored as safety signals._
 
-1. _Antibiotic consumption measured as Defined Daily Doses per admission overall and in AWaRE categories split by indication_
-2. Time to intravenous to oral antibiotic switch.
-3. _Days of Antibiotic Spectrum consumption per admission and indication_
-4. _Days of therapy of antibiotics_&#x20;
-5. Co-Administration of antibiotics
-6. _Proportion of patients who receive IV or Oral antibiotic courses_&#x20;
-7. _Rates of Clostridoides Difficile in both groups, ESBL, CRO and Ciprofloxacin Resistance isolates, and Vancomycin resistant enterococci rates_
+**Stewardship**
 
-### 4. Trial design
+1. Antibiotic consumption measured as Defined Daily Doses (DDD) per admission, overall and stratified by AWaRe category and indication.
+2. Time to intravenous-to-oral antibiotic switch.
+3. Days of antibiotic spectrum consumption per admission and per indication. \[TODO: confirm metric — DASI or equivalent validated spectrum score]
+4. Days of therapy per admission.
+5. Proportion of antibiotic switches from the initial prescription at 24, 48, and 72 hours.
+6. Proportion of empirical antibiotic escalations — defined as a change in antibiotic treatment independent of new microbiological evidence.
+7. Proportion of patients receiving intravenous versus oral antibiotic courses.
 
-A single centre, randomised, parallel assignment, digitally integrated service evaluation.
+**Safety Monitoring: Antimicrobial Resistance Signals**
 
-Adult patients attending hospital who receive an antibiotic order for an infection, who are prescribed an antibiotic will be included. &#x20;
+_The following outcomes will be monitored as safety signals. The study is not powered to detect differences between arms._
 
-Patients who fulfil the above eligibility criteria will be enrolled in the study and randomised between intervention and standard care arms.  All study data will be extracted from the electronic patient record.  There will be no additional testing or follow up requirements. &#x20;
+1. Rates of _Clostridioides difficile_ infection.
+2. Rates of extended-spectrum beta-lactamase (ESBL)-producing isolates.
+3. Rates of carbapenem-resistant organism (CRO) isolates.
+4. Rates of ciprofloxacin-resistant isolates.
+5. Rates of vancomycin-resistant enterococci (VRE).
 
-Description of the proposed study workflow:
+#### 4. Trial Design
 
-1. Patient diagnosed with infection.  The patient enters the study at the point of antibiotic order placement by the treating clinician.  As such, they may be located in the emergency or outpatient departments or may be an inpatient.  In all cases, they will be receiving their first antibiotic order for the current encounter.&#x20;
-2. Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav).
-3. Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (e.g. Lung/CVS, Community Acquired Pneumonia, Mild).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature.
+Inglés-Guidelines is a single-centre, randomised controlled trial with parallel assignment, digitally integrated within the electronic patient record (EPR) at University College London Hospitals NHS Foundation Trust (UCLH).
 
-The Guideline Compliance Nudge
+Adult patients admitted to secondary care with community-acquired pneumonia who receive a non-guideline-concordant antibiotic prescription will be randomised between the stewardship prompt arm and standard care. All study data will be extracted from the EPR. Participation requires no additional testing, clinical appointments, or follow-up beyond routine care.
 
-* Signing the order, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:
-  * Is this the first antibiotic order associated with the current patient encounter? (Y/N)
-  * Is there discordance between the selected antibiotic, highlighted indication data and clinical guideline? (Y/N)
-    * Discordance is determined by applying the following logical criteria:
-      * 1\) Does the patient have a documented allergy to penicillin or a penicillin containing antibiotic preparation?
-      * 2\) Does the selected antibiotic for the stated indication align with the guideline recommendation?&#x20;
-  * Has the patient already been randomised within the study during the current patient encounter? (Y/N)
-* If the patient is receiving the first antibiotic order for the encounter, and the order is discordant with the recommended treatment in the clinical guideline, and the patient has not been previously randomised within the study within the current encounter, then a fourth screening step will occur:
-  * Does the patient have a documented allergy to the guideline-concordant antibiotic recommendation? (Y/N)
-* If the patient is allergic to the guideline concordant antibiotic then the alert is suppressed and the patient is not randomised.
+**Study Workflow**
 
-If the eligibility criteria are satisfied then the patient will be randomised to the clinician-facing nudge alert group or standard care (no alert). &#x20;
+The patient enters the study at the point of antibiotic order placement by the treating clinician. The clinician may be prescribing from the emergency department, an outpatient setting, or an inpatient ward. In all cases, the antibiotic order must be the first for the current encounter.
 
-If randomised to the alert arm, the intervention will display to the clinician during the antibiotic order process:\
-\
-&#xNAN;_<mark style="background-color:$warning;">"You are selecting \[abx X1] for \[indication Y].</mark>_\
-_<mark style="background-color:$warning;">UCLH guidelines suggest use of \[abx X2] for \[indication Y].</mark>_\
-_<mark style="background-color:$warning;">Click here to change the current antibiotic order to \[abx X2], or select a clinical justiification for deviating from the clinical guideline:</mark>_
+The prescribing sequence proceeds as follows:
 
-\
-_<mark style="background-color:$warning;">1) Requirement for extended spectrum agent use given diagnostic uncertainty</mark>_\
-_<mark style="background-color:$warning;">2) Requirement for extended spectrum agent use given additional clinical risk</mark>_ \
-_<mark style="background-color:$warning;">3) Approved extended spectrum agent use from microbiology/Infectious Diseases</mark>_
+1. The clinician selects the desired antibiotic from the orders tab (e.g. co-amoxiclav).
+2. The clinician enters antibiotic indication data at a mandated step within the order window, specifying body system and indication (e.g. Respiratory, Community-Acquired Pneumonia, Mild). Dose, route, frequency, and duration are entered. The order is accepted and queued for signature.
+3. On signing the order, the EPR silently evaluates a series of eligibility criteria to determine whether the stewardship prompt should be displayed (see below).
 
-_<mark style="background-color:$warning;">4) Prescription indication is incorrect as prescribed therefore guideline not relevant</mark>_\
-_<mark style="background-color:$warning;">4) Other (Comment)"</mark>_
+**Eligibility Screening at the Point of Prescribing**
+
+Signing the antibiotic order triggers automated, silent evaluation of the following criteria in sequence:
+
+1. **First antibiotic order**: Is this the first antibiotic order for the current patient encounter?
+2. **Guideline discordance**: Is there discordance between the selected antibiotic, the entered indication, and the UCLH clinical guideline recommendation?
+3. **Prior randomisation**: Has the patient already been randomised within this encounter?
+4. **Allergy to guideline-concordant antibiotic**: Does the patient have a documented allergy to the guideline-recommended antibiotic?
+
+A patient is eligible for randomisation only if criteria 1, 2, and 3 are met, and criterion 4 is not. If the patient has a documented allergy to the guideline-concordant antibiotic, the patient is not enrolled.
+
+If all eligibility criteria are satisfied, the patient is randomised 1:1 to the stewardship prompt arm or standard care (no prompt).
+
+**The Stewardship Prompt**
+
+Patients randomised to the intervention arm trigger display of an electronic stewardship prompt to the prescribing clinician at the point of order signing. The prompt reads:
+
+> _You are prescribing \[antibiotic X] for \[indication Y]._ _UCLH guidelines recommend \[antibiotic Z] for \[indication Y]._ _Select below to switch to \[antibiotic Z], or provide a clinical justification for deviation from the guideline:_
+>
+> 1. _Requirement for extended-spectrum agent given diagnostic uncertainty_&#x20;
+> 2. _Requirement for extended-spectrum agent given additional clinical risk_
+> 3. _Extended-spectrum agent use approved by Microbiology or Infectious Diseases_&#x20;
+> 4. _Prescription indication is incorrectly recorded; guideline therefore not applicable_
+> 5. _Other (free text comment)_
+
+\[TODO: confirm whether one-click antibiotic substitution is technically achievable within Epic Best Practice Advisory architecture, or whether the clinician must manually place a new order.]
+
+Patients randomised to standard care receive no prompt. The prescribing clinician proceeds with the original antibiotic order without interruption.
 
 ### 5. Sampling methods
 
@@ -216,6 +219,3 @@ This study seeks to ascertain the effectiveness and safety of a digital prescrib
 
 ### 22. Appendices
 
-
-
-[^1]: Gohil, S.K. _et al._ (2024) ‘Stewardship prompts to improve antibiotic selection for pneumonia: The INSPIRE randomized clinical trial’, _JAMA_ \[Preprint]. Available at: [https://doi.org/10.1001/jama.2024.6248](https://doi.org/10.1001/jama.2024.6248).
