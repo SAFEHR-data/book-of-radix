@@ -18,6 +18,8 @@ Leave for now: will be written after Background and Rationale complete
 
 {% include "../../../.gitbook/includes/bg-antimicrobial-resistance-a....md" %}
 
+Urinary tract infections (UTIs) represent a particularly important context in which to examine AMR, given their prevalence, burden on the NHS, high rate of empirical antibiotic prescribing, and the significant rates of resistance observed in urinary pathogens.
+
 #### Disease Specific Background
 
 {% include "../../../.gitbook/includes/background-uti-epidemiology.md" %}
@@ -28,7 +30,7 @@ Leave for now: will be written after Background and Rationale complete
 
 #### Antimicrobial Stewardship
 
-Antimicrobial stewardship seeks to preserve antibiotic effectiveness by limiting resistance. This involves ensuring  antibiotics are initiated only when indicated and that the most narrow spectrum agent is used to target the causative organism. Within the hospital setting, stewardship programmes that have focussed on enabling better prescribing rather than restricting prescribing  have demonstrated reductions in antibiotic overuse and length of stay, without adversely affecting patient mortality outcomes.
+{% include "../../../.gitbook/includes/antimicrobial-stewardship-s....md" %}
 
 #### The EHRS opportunity for antibiotic stewardship
 
@@ -68,11 +70,11 @@ Research Question
 
 In adult patients with urinary tract infections, does a digital alert triggered by a detected bug-drug mismatch in Enterobacterales, which surfaces antimicrobial susceptibility data at the point of prescribing, reduce mismatch rates compared with standard care?
 
-**PICOT**
+## PICOT
 
-_**Population**_
+### _Population_
 
-All adult patients (over 18) who are not pregnant and are prescribed an antibiotic for one of the following urinary tract infection diagnoses:
+All adults patients (over 18) who are not pregnant and are prescribed an antibiotic for the following urinary source indications are included.
 
 1. Lower Urinary Tract Infection (Cystitis)
 2. Upper Urinary Tract Infection (Pyelonephritis)
@@ -85,7 +87,32 @@ _**Exclusion**_&#x20;
 2. Under 18s
 3. Previously randomised in the trial on the same encounter
 
-**Intervention**
+### _Intervention_
+
+Adult patients attending hospital who receive an antibiotic order for a urinary source infection indication will be automatically enrolled. At the point of order signature, an Our Practice Advisory Card will be triggered.
+
+Patients who fulfil the eligibility criteria will be randomised between intervention and standard care arms. All study data will be extracted from the electronic patient record, with no additional testing or follow-up requirements.&#x20;
+
+1. _Patient initiated on antibiotic therapy for a urinary source indication._ The patient enters the study at the point of antibiotic order placement.
+2. _Clinician opts for antibiotic treatment and selects desired antibiotic from orders tab search box (e.g. Co-Amoxiclav)._
+3. _Clinician enters antibiotic indication data within order window (mandated step) for body system and specific indication (as described above).  The dose, timing, frequency and duration are entered.  The order is accepted and appears in the orders sidebar for signature._
+4. _Signing the order/prescription, triggers silent evaluation of logic rules determining order appropriateness (compliance against existing guidelines) and second stage eligibility criteria:_
+
+_The logic rules are as below:_
+
+* _1.Does the indication fit a urinary source as described above (Y/N)_
+* _2.Has the patient already been randomised within the study during the current patient encounter (Y/N)_
+* _3.Is there discordance between the selected antibiotic, and sensitivity to previous microbiology over the last 90 days as described above. (Y/N)_
+
+_Then the following happens_
+
+* If N for question 1 then the patient is excluded fromt the trial
+* If Y for question 2 then the patient is excluded from the trial
+* If N then Y for questions 1 and 2 then the patient moves to question 3. Where they are randomised to an OPA card showing them previous antibiotic resistance history vs an OPA card showing the resistance highlighted as a bug drug mismatch.
+
+**Control arm:** An interruptive OPA card nudges toward guideline-concordant prescribing. Prior microbiology data is surfaced but not highlighted.
+
+_If the eligibility criteria are satisfied then the patient will be randomised to alert or standard care arms (no alert)._ &#x20;
 
 Recruitment will be automatic. Patients who fulfil the eligibility criteria, described above, will be enrolled in the study and randomised between the intervention and standard care arms at the point of prescription. All study data will be extracted from the electronic health record system (EHRS). There will be no additional testing or follow-up requirements beyond routine clinical care.
 
@@ -119,9 +146,17 @@ Patients randomised to the control arm receive standard care. Standard care refl
 
 ### Outcomes
 
+Individual level consent would not be sought for patients as firstly, the clinician would be&#x20;
+
+## Outcomes
+
 _Primary outcome_
 
 1. The proportion of patients prescribed an antibiotic to which a culture isolate, from the defined Enterobacterales organisms, within the preceding 90 days demonstrated resistance. This will be expressed as both a proportion and adjusted odds ratios comparing the intervention and control arms.
+
+Evaluate the effectiveness of a clinically-integrated digital prescribing nudge surfacing bug-drug mismatch information at the point of prescribing. &#x20;
+
+1. The proportion of empirical antibiotic prescriptions that are discordant with the patient's urinary or blood culture susceptibility results, compared between intervention and standard care arms.
 
 _Secondary outcomes_
 
@@ -160,7 +195,7 @@ _Safety:_
 
 #### 4. Trial design <a href="#id-4.-trial-design" id="id-4.-trial-design"></a>
 
-This is a single centre prospective individually randomised control trial evaluating the effectiveness of a clinically integrated digital prescribing aid that surfaces relevant antimicrobial resistance data at the point of prescribing for a range of infections that affect the urinary tract.
+This is a single centre prospective individually randomised control trial evaluating the effectiveness of a clinically integrated digital prescribing aide that surfaces relevant antimicrobial resistance ie bug-drug mismatch at the point of prescribing for a range of infections that affect the urinary tract.
 
 Eligible patients will be randomised 1:1 to the intervention (bug-drug mismatch OPA) or standard of care (guideline OPA card or no clinical OPA card) using an automated system within the EHRS. Once a patient is allocated, their assignment will be fixed for all subsequent prescribing episodes during the encounter. This ensures consistency of the intervention within individual patients across multiple prescribing episodes.
 
@@ -170,34 +205,15 @@ _Patient-level randomisation introduces a risk of contamination, as prescribers 
 
 _Patient-level randomisation therefore offers the most pragmatic design. Furthermore, the nature of the intervention itself mitigates the impact of contamination. Unlike a generic prescribing prompt, each alert presents patient-specific susceptibility data unique to the individual encounter, limiting the extent to which exposure to one patient's alert can meaningfully influence prescribing decisions for another._
 
-#### 5. Sampling methods <a href="#id-5.-sampling-methods" id="id-5.-sampling-methods"></a>
-
-**Inclusion criteria**
-
-Patients admitted or prescribed antibiotics at UCLH&#x20;
-
-Age over 18
-
-Patients prescribed  of Antibiotics with Indication of:
-
 1. LOWER urinary tract infection (Cystitis)
 2. UPPER urinary tract infection (Pyelonephritis)
 3. RECURRENT urinary tract infection&#x20;
 4. Catheter-associated UTI (incl Stent, Nephrostomy, Other)
-
-**Exclusion criteria**
-
-Age under 18
-
-Pregnancy
+5. Prostatitis
 
 Already enrolled in trial in that encounter
 
-**Recruitment**
-
-All inpatient and outpatient encounters prescribed antibiotics with the indication above and without the exclusion criteria
-
-**Consent**
+All inpatient and outpatient encounters prescribed antibiotics with the indication
 
 The intervention in this study involves surfacing clinical data that is already available within the patient's electronic health record specifically, prior microbiology results, antimicrobial sensitivity data, and relevant prescribing guideline information. The nudge does not alter the treatment itself, the prescribing clinician retains full autonomy over the antibiotic selection and all subsequent clinical decisions. In effect, the advisory ensures that information which should already inform prescribing is presented to the clinician at the point of decision-making, supporting best practice rather than introducing a novel therapeutic intervention. The purpose of the study is to evaluate whether this is effective in improving antibiotic prescribing decisions when antimicrobial resistance information is surfaced at the point of care.
 
@@ -207,7 +223,7 @@ The study will seek approval under the appropriate regulatory framework for the 
 
 
 
-
+#### 6. Intervention <a href="#id-6.-intervention" id="id-6.-intervention"></a>
 
 
 
