@@ -46,9 +46,15 @@ University College London Hospitals NHS Foundation Trust (UCLH) provides acute a
 
 This geographic clustering of hospitals means that patients frequently move between institutions, receiving care across multiple sites and specialties. As these hospitals do not share the same EHRS, a patient's antibiotic history and microbiology results may be distributed across multiple non-interoperable systems, as well as between primary and secondary care, making prior resistance history difficult to access in a timely manner.
 
+
+
+**Bringing data into one place**
+
+As has been described one of the challenges of prescribing is having the time to interrogate prescribing history and antimicrobial resistance history in an simple fashion without&#x20;
+
 #### Ingles 2
 
-The Ingles-2 study hypothesises that surfacing a patient's antibiotic history at the point of prescribing will enable more targeted and judicious antibiotic selection in patients who are thought to have a urinary source of infection.
+The Ingles-2 study hypothesises that surfacing a patient's prior microbiology and antibiotic history at the point of prescribing will enable more targeted and judicious antibiotic selection in patients who are thought to have a urinary source of infection.
 
 _Urinary Tract Infections have been selected as the indication as they frequently have prior microbiology and resistance history available, are prone to recurrence, and if inadequately treated can progress to pyelonephritis, bacteraemia and mortality._&#x20;
 
@@ -64,7 +70,7 @@ We would investigate this through the following design.
 
 
 
-1. Where prior microbiological resistance data +/- antibiotic prescribing (depending on availability) history exists within the preceding 30 days, an alert will surface this information at the point of prescribing.
+1. Where prior microbiological resistance data exists we would surface this at the point of prescribing to illustrate it from 90 days prior. Where antibiotic prescribing (depending on availability) history exists within the preceding 30 days, this would also be surfaced.
 2. Where no prior microbiology is available, a nudge will fire if the prescribed antibiotic is not guideline-concordant, steering the prescriber toward recommended therapy.
 
 
@@ -92,15 +98,15 @@ _Effectiveness:_
 
 _Primary outcome_
 
-1. **Proportion of patients prescribed an antibiotic to which their most recent culture isolate (from the defined types) within the preceding 30 days demonstrated resistance in the two different groups.**
+1. **Proportion of patients prescribed an antibiotic to which their most recent culture isolate (from the defined types) within the preceding 90 days demonstrated resistance in the two different groups.**
 
 _Secondary outcomes_
 
 1. Proportion of patients whose urinary or blood culture isolate of a gram-negative organism likely to cause UTI (e.g Enterobacterales), obtained between 24 hours before and 48 hours after the index antibiotic prescription, demonstrated resistance to the antibiotic prescribed between the two groups.
 2. Proportion of antibiotic prescription changes at the point of prescribing, in response to a fired nudge?
 3. Proportion of empiric escalation of antibiotic therapy (broadening of antimicrobial spectrum in the absence of new microbiological evidence) within 72 hours of initial prescription.
-4. Among prescribing episodes where the nudge fired and no resistance to the prescribed antibiotic was documented within the preceding 30 days, the proportion in which the antibiotic prescription was changed to adhere to guidance?
-5. Among patients with documented resistance to the initially prescribed antibiotic within the preceding 30 days, the proportion whose current admission cultures grew an organism sensitive to the initially prescribed antibiotic.
+4. Among prescribing episodes where the nudge fired and no resistance to the prescribed antibiotic was documented within the preceding 90 days, the proportion in which the antibiotic prescription was changed to adhere to guidance?
+5. Among patients with documented resistance to the initially prescribed antibiotic within the preceding 90 days, the proportion whose current admission cultures grew an organism sensitive to the initially prescribed antibiotic.
 
 _Safety:_
 
@@ -135,13 +141,13 @@ _Stewardship:_
 
 This is a single centre prospective individually randomised control trial evaluating the effectiveness of a clinically integrated digital prescribing aide that surfaces relevant antimicrobial resistance and antimicrobial usage at the point of prescribing for a range of infections that affect the urinary tract.
 
-Eligible patients would be randomised 1:1 to the intervention (digital nudge) or control (standard workflow) using an automated system within the EHRS. Once a patient is allocated, their assignment will be fixed for all subsequent prescribing episodes during the study period. This ensures consistency of the intervention within individual patients across multiple encounters.
+Eligible patients would be randomised 1:1 to the intervention (digital OPA card) or control (standard workflow) using an automated system within the EHRS. Once a patient is allocated, their assignment will be fixed for all subsequent prescribing episodes during the study period. This ensures consistency of the intervention within individual patients across multiple encounters.
 
 Due to the nature of the intervention, prescribers cannot be blinded to treatment allocation, they will either see the digital nudge or they will not. Patients are not actively involved in the intervention and will not be aware of their allocation. Outcome assessment will be conducted using routinely collected electronic data and can be performed by analysts blinded to group allocation.
 
 The patients randomised into three arms:
 
-1. An interruptive Our Practice Advisory (OPA) card showcases prior antibiotic resistance history and antimicrobial prescription data for the last 30 days. The AMR data will be drawn from Helix, and the prescribing data from EPIC and... ? GP?
+1. An interruptive Our Practice Advisory (OPA) card showcases prior antibiotic resistance history and antimicrobial prescription data for the last 30 days. The AMR data will be drawn from Helix (EPIC visible), and  prescribing data from EPIC and... ? GP?
 2. An interruptive Our Practice Advisory card showcases current guidance for each indication if a prescriber has prescribed against guidance if no prior microbiology history/ antimicrobial usage history is present in the last 30 days.
 3. &#x20;Usual workflow with no antimicrobial history surfaced.
 
@@ -177,7 +183,7 @@ Pregnancy
 
 **Recruitment**
 
-All wards or new admissions?
+New admissions
 
 **Consent**
 
