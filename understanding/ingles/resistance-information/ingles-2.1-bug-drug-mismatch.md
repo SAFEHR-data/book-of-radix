@@ -50,11 +50,11 @@ _A bug-drug mismatch occurs when a prescribed antibiotic does not effectively tr
 
 The development of AMR itself can occur via two distinct pathways. In the first, repeated or prolonged exposure to antibiotics exerts selective pressure on bacterial populations within the host. Susceptible organisms are eliminated, while those harbouring pre-existing resistance mutations survive and proliferate, gradually shifting the microbial population toward a resistant phenotype. In the second pathway, resistant bacteria are acquired exogenously from the environment, for example, through contact with other individuals, healthcare settings, animals, or contaminated food sources. Once these exogenous resistant organisms become established within the host, they may transfer their resistance-encoding genetic elements to commensal bacteria already present in the individual's microbiome through horizontal gene transfer mechanisms, such as plasmid exchange. Consequently, bacteria that were previously susceptible within the host's own flora may acquire resistance without ever having been directly exposed to antibiotic selection pressure.
 
-_Resistance is formally determined on susceptibility testing with clinical breakpoints for the laboratory defined by the The European Committee on Antimicrobial Susceptibility Testing (EUCAST), which updates annually. Expected resistance and susceptibility phenotypes are described in the EUCAST expert rules, providing laboratories with a standardised framework. On the basis of these breakpoints, susceptibility categories are defined as: **S** (Susceptible), **I** (Susceptible at Increased Exposure to the Drug), and **R** (Resistant)._
+_Resistance is formally determined on susceptibility testing with clinical breakpoints for the laboratory defined by the The European Committee on Antimicrobial Susceptibility Testing (EUCAST), which updates annually. Expected resistance and susceptibility phenotypes are described in the EUCAST expert rules, providing laboratories with a standardised framework on which to define susceptible or resistant bacteria. On the basis of these breakpoints, susceptibility categories are defined as: **S** (Susceptible), **I** (Susceptible at Increased Exposure to the Drug), and **R** (Resistant)._
 
 _(notes \*\*There are some expected phenotpyes of resistance and sensitivities which are described here:_ [_https://www.eucast.org/fileadmin/eucast/pdf/expert\_rules/Expected\_Resistant\_Phenotypes\_v1.2\_20230113.pdf_](https://www.eucast.org/fileadmin/eucast/pdf/expert_rules/Expected_Resistant_Phenotypes_v1.2_20230113.pdf)_. The laboratory uses this to determine susceptibility \*\*notes)_
 
-_The majority of urinary tract infections are caused by **Enterobacterales** — a family of gram-negative bacteria including Escherichia coli, Klebsiella , Proteus , Enterobacter , Citrobacter , Serratia, and Morganella species._&#x20;
+_The majority of urinary tract infections are caused by **Enterobacterales** — a family of gram-negative bacteria including Escherichia coli, Klebsiella , Proteus , Enterobacter , Citrobacter , Serratia, Providencia and Morganella species._&#x20;
 
 _Two other groups also frequently cause UTIs: **Enterococcus** (both faecalis and faecium), which is a gram-positive organism, and **Pseudomonas**, a gram-negative organism, the latter of which can often colonise the urinary tract if a catheter is in situ or there is foreign material._
 
@@ -68,7 +68,7 @@ Some Enterobacterales have "expected resistant pehnotypes", which isolates of a 
 
 Research Question
 
-In adult patients with urinary tract infections, does a digital alert triggered by a detected bug-drug mismatch in Enterobacterales, which surfaces antimicrobial susceptibility data at the point of prescribing, reduce mismatch rates compared with standard care?
+Among adult patients with urinary tract infections caused by Enterobacterales, does a digital alert that surfaces antimicrobial susceptibility data at the point of prescribing when a bug-drug mismatch is detected, compared with standard care, reduce the rate of bug-drug mismatched prescribing?
 
 ## PICOT
 
@@ -102,15 +102,15 @@ _The logic rules are as below:_
 
 * _1.Does the indication fit a urinary source as described above (Y/N)_
 * _2.Has the patient already been randomised within the study during the current patient encounter (Y/N)_
-* _3.Is there discordance between the selected antibiotic, and sensitivity to previous microbiology over the last 90 days as described above. (Y/N)_
+* _3.Is there discordance between the selected antibiotic, and sensitivity to previous microbiology over the last 180 days as described above. (Y/N)_
 
 _Then the following happens_
 
-* If N for question 1 then the patient is excluded fromt the trial
+* If N for question 1 then the patient is excluded from the trial
 * If Y for question 2 then the patient is excluded from the trial
-* If N then Y for questions 1 and 2 then the patient moves to question 3. Where they are randomised to an OPA card showing them previous antibiotic resistance history vs an OPA card showing the resistance highlighted as a bug drug mismatch.
+* If Y then N, for questions 1 and 2 then the patient moves to question 3. Where they are randomised to an OPA card showing them standard of care at the time in hospital compared to an OPA card which shows a bug-drug mismatch.
 
-**Control arm:** An interruptive OPA card nudges toward guideline-concordant prescribing. Prior microbiology data is surfaced but not highlighted.
+**Control arm:** An interruptive OPA card with guideline adherence/ or whatever is current standard of care is shown to the clinicians.&#x20;
 
 _If the eligibility criteria are satisfied then the patient will be randomised to alert or standard care arms (no alert)._ &#x20;
 
@@ -124,7 +124,7 @@ The intervention is delivered through an Our Practice Advisory (OPA) card, a dig
 
 1. A patient is treated for a UTI indication. The patient enters the study at the point of antibiotic order placement by the treating clinician.
 2. The clinician selects the desired antibiotic from the orders tab search box (e.g., co-amoxiclav) and enters the antibiotic indication data within the order window, including body system and specific indication. This is a mandated step within the EHRS. The dose, timing, frequency, and duration are entered. The order is accepted and appears in the orders sidebar for signature.
-3. Upon signing the order, a silent evaluation of the study logic rules is triggered: a. Has the patient already been randomised within the study during the current encounter? If yes, the patient is excluded from the study. b. If no, the patient is randomised into the intervention arm or the control arm.
+3. Upon signing the order, a silent evaluation of the study logic rules is triggered: a. Has the patient had an antibiotic prescribed for a UTI indication, if no then they are excluded, if yest they move to second part. b. Has the patient already been randomised within the study during the current encounter? If yes, the patient is excluded from the study. c. If no, the patient is randomised into the intervention arm or the control arm.
 
 **Intervention arm**
 
@@ -144,26 +144,18 @@ Patients randomised to the control arm receive standard care. Standard care refl
 
 
 
-### Outcomes
-
-Individual level consent would not be sought for patients as firstly, the clinician would be&#x20;
-
 ## Outcomes
 
 _Primary outcome_
 
-1. The proportion of patients prescribed an antibiotic to which a culture isolate, from the defined Enterobacterales organisms, within the preceding 90 days demonstrated resistance. This will be expressed as both a proportion and adjusted odds ratios comparing the intervention and control arms.
-
-Evaluate the effectiveness of a clinically-integrated digital prescribing nudge surfacing bug-drug mismatch information at the point of prescribing. &#x20;
-
-1. The proportion of empirical antibiotic prescriptions that are discordant with the patient's urinary or blood culture susceptibility results, compared between intervention and standard care arms.
+1. The proportion of patients prescribed an antibiotic to which a culture isolate, from the defined Enterobacterales organisms, within the preceding 180 days demonstrated resistance. This will be expressed as both a proportion and adjusted odds ratios comparing the intervention and control arms.
 
 _Secondary outcomes_
 
 1. The proportion and adjusted odds ratio of patients whose urinary or blood culture isolate of Enterobacterales, obtained between 24 hours before and 48 hours after the index antibiotic prescription, demonstrated resistance to the antibiotic prescribed.
 2. Proportion and adjusted odds ratio of antibiotic prescription changes at the point of prescribing among patients with a detected bug-drug mismatch, compared between the intervention and control arms.
-3. Time to antibiotic, the interval between the initial antibiotic order and the first administration of an antibiotic.
-4. Time to appropriate antibiotic, the interval between the initial antibiotic order and the first administration of an antibiotic to which the isolate is susceptible.
+3. Time to antibiotic, the interval between the initial antibiotic order and the first administration of an antibiotic compared between the control and intervention arm.&#x20;
+4. Time to appropriate antibiotic, the interval between the initial antibiotic order and the first administration of an antibiotic to which the isolate is susceptible, as defined by an isolate obtained between 24 hours before and 48 hours after the index antibiotic prescription.&#x20;
 5. Among patients with a documented bug-drug mismatch to the initially prescribed antibiotic within the preceding 90 days, the proportion whose cultures obtained between 24 hours before and 48 hours after the index antibiotic prescription grew an organism susceptible to the initially prescribed antibiotic.
 6. Alert override rate (intervention arm only), the proportion of bug-drug mismatch OPA cards where the clinician chose to continue with the original prescription without amendment.
 
@@ -209,11 +201,8 @@ _Patient-level randomisation therefore offers the most pragmatic design. Further
 2. UPPER urinary tract infection (Pyelonephritis)
 3. RECURRENT urinary tract infection&#x20;
 4. Catheter-associated UTI (incl Stent, Nephrostomy, Other)
-5. Prostatitis
 
-Already enrolled in trial in that encounter
 
-All inpatient and outpatient encounters prescribed antibiotics with the indication
 
 The intervention in this study involves surfacing clinical data that is already available within the patient's electronic health record specifically, prior microbiology results, antimicrobial sensitivity data, and relevant prescribing guideline information. The nudge does not alter the treatment itself, the prescribing clinician retains full autonomy over the antibiotic selection and all subsequent clinical decisions. In effect, the advisory ensures that information which should already inform prescribing is presented to the clinician at the point of decision-making, supporting best practice rather than introducing a novel therapeutic intervention. The purpose of the study is to evaluate whether this is effective in improving antibiotic prescribing decisions when antimicrobial resistance information is surfaced at the point of care.
 
