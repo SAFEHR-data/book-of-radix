@@ -202,8 +202,6 @@ _Patient-level randomisation therefore offers the most pragmatic design. Further
 3. RECURRENT urinary tract infection&#x20;
 4. Catheter-associated UTI (incl Stent, Nephrostomy, Other)
 
-
-
 The intervention in this study involves surfacing clinical data that is already available within the patient's electronic health record specifically, prior microbiology results, antimicrobial sensitivity data, and relevant prescribing guideline information. The nudge does not alter the treatment itself, the prescribing clinician retains full autonomy over the antibiotic selection and all subsequent clinical decisions. In effect, the advisory ensures that information which should already inform prescribing is presented to the clinician at the point of decision-making, supporting best practice rather than introducing a novel therapeutic intervention. The purpose of the study is to evaluate whether this is effective in improving antibiotic prescribing decisions when antimicrobial resistance information is surfaced at the point of care.
 
 On this basis, individual patient consent is not considered necessary for several reasons. First, the intervention is directed at clinician behaviour, how existing information is accessed and displayed, rather than at the patient directly. In routine care, patients would have no awareness of whether their clinician reviewed their microbiology results before prescribing, and the nudge does not change this dynamic.&#x20;
@@ -228,7 +226,7 @@ The study will seek approval under the appropriate regulatory framework for the 
 
 Baseline demographic and clinical characteristics will be summarised by randomisation arm. Categorical variables (e.g., Sex, UTI indication category, prescribing team,outpatient vs inpatient) will be reported as frequencies and percentages and compared using chi-squared tests or Fisher's exact test. Continuous variables (e.g., Age) will be assessed for normality. Normally distributed variables will be reported as means with standard deviations and compared using independent samples t-tests. Non-normally distributed variables will be reported as medians with interquartile ranges and compared using Kruskal-Wallis tests.&#x20;
 
-Logistic regression will be used for the primary and secondary binary outcomes, adjusted for age, sex, ethnicity, UTI indication category, and location of prescription. Covariates will be retained in the final model if they demonstrate an independent association with the outcome.
+Logistic regression will be used for the primary and secondary binary outcomes, adjusted for age, sex, ethnicity, UTI indication category, and location of prescription. Covariates will be retained in the final model if they demonstrate an independent association with the outcome or are thought to be clinically relevant.
 
 **Primary outcome analysis**
 
