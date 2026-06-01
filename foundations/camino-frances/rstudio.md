@@ -28,10 +28,20 @@ con <- connect_to_ducklake()
 
 You can then interact with the data using the [DuckDB R package](https://duckdb.org/docs/stable/clients/r). For example
 
+<pre class="language-r"><code class="lang-r">dbExecute(con, "SHOW ALL TABLES;")
+first10 &#x3C;- dbGetQuery(con, "SELECT * FROM camino.bronze.Organisms LIMIT 10")
+<strong>print(first10),
+</strong></code></pre>
+
+To see the list of Camino schema and table
+
 ```r
-dbExecute(con, "SHOW ALL TABLES;")
-first10 <- dbGetQuery(con, "SELECT * FROM camino.bronze.Organisms LIMIT 10")
-print(first10),
+dbGetQuery(con, "
+  SELECT table_schema, table_name
+  FROM information_schema.tables
+  WHERE table_schema IN ('bronze', 'silver', 'gold')
+  ORDER BY table_schema, table_name
+")
 ```
 
 {% hint style="info" %}
