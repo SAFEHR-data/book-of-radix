@@ -50,8 +50,8 @@ The screenshots below illustrate the intervention in a testing environment. In s
 
 // insert a screen shot
 
-![RADIX demo screenshot step 1](RADIX demo screenshot step 1.png)
-![RADIX demo screenshot step 2](RADIX demo screenshot step 2.png)
+![](RADIX-demo-screenshot-step-1.png)
+![](RADIX-demo-screenshot-step-2.png)
 
 This trial tests whether the RADIX-BDM alert changes prescribing behaviour and patient outcomes. The research question is: among adults prescribed antibiotics for a urinary indication in secondary care, does an interruptive alert displaying historical *Enterobacterales* resistance to the prescribed antibiotic, identified within the preceding 365 days, reduce bug–drug mismatch at the point of prescribing compared with no alert?
 
